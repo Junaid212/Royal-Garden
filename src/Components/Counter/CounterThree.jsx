@@ -23,7 +23,7 @@ function CounterThree() {
     return (
         <div
             className="bg-top-center space-top overflow-hidden"
-            style={{ backgroundImage: "url(/assets/img/bg/contact_bg_2.jpg)", backgroundRepeat: "no-repeat" }}
+            style={{ backgroundImage: "url(/assets/img/rg/19.webp)", backgroundRepeat: "no-repeat" }}
         >
             <div className="container">
                 <div className="row">

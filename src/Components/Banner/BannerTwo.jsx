@@ -69,7 +69,7 @@ function BannerTwo() {
       >
         <SwiperSlide>
           <div className="hero-inner">
-            <div className="th-hero-bg" style={{ backgroundImage: 'url(/assets/img/hero/hero_bg_2_1.jpg)', backgroundRepeat: "no-repeat", backgroundSize: "cover" }} />
+            <div className="th-hero-bg" style={{ backgroundImage: 'url(/assets/img/rg/8.webp)', backgroundRepeat: "no-repeat", backgroundSize: "cover" }} />
             <div className="container">
               <div className="hero-style2">
                 <h1 className="hero-title" data-ani="slideinup" data-ani-delay="0.4s">
@@ -87,9 +87,7 @@ function BannerTwo() {
         </SwiperSlide>
         <SwiperSlide>
           <div className="hero-inner">
-            <video autoPlay loop muted>
-              <source src="/assets/img/hero/hero-video.mp4" type="video/mp4" />
-            </video>
+            <div className="th-hero-bg" style={{ backgroundImage: 'url(/assets/img/rg/6.webp)', backgroundRepeat: "no-repeat", backgroundSize: "cover" }} />
             <div className="container">
               <div className="hero-style2">
                 <h1 className="hero-title" data-ani="slideinup" data-ani-delay="0.4s">
@@ -107,7 +105,7 @@ function BannerTwo() {
         </SwiperSlide>
         <SwiperSlide>
           <div className="hero-inner">
-            <div className="th-hero-bg" style={{ backgroundImage: 'url(/assets/img/hero/hero_bg_2_3.jpg)', backgroundRepeat: "no-repeat", backgroundSize: "cover" }} />
+            <div className="th-hero-bg" style={{ backgroundImage: 'url(/assets/img/rg/9.webp)', backgroundRepeat: "no-repeat", backgroundSize: "cover" }} />
             <div className="container">
               <div className="hero-style2">
                 <h1 className="hero-title" data-ani="slideinup" data-ani-delay="0.4s">
@@ -125,7 +123,7 @@ function BannerTwo() {
         </SwiperSlide>
         <SwiperSlide>
           <div className="hero-inner">
-            <div className="th-hero-bg" style={{ backgroundImage: 'url(/assets/img/hero/hero_bg_2_3.jpg)', backgroundRepeat: "no-repeat", backgroundSize: "cover" }} />
+            <div className="th-hero-bg" style={{ backgroundImage: 'url(/assets/img/rg/10.webp)', backgroundRepeat: "no-repeat", backgroundSize: "cover" }} />
             <div className="container">
               <div className="hero-style2">
                 <h1 className="hero-title" data-ani="slideinup" data-ani-delay="0.4s">
@@ -179,7 +177,7 @@ function BannerTwo() {
           <div className="hero-inner">
             <div className="hero-card">
               <div className="hero-img">
-                <img src="/assets/img/hero/hero_bg_2_1.jpg" alt="" />
+                <img src="/assets/img/rg/8.webp" alt="" />
               </div>
               <div className="hero-card_content">
                 <h3 className="box-title">Garden</h3>
@@ -194,7 +192,7 @@ function BannerTwo() {
           <div className="hero-inner">
             <div className="hero-card">
               <div className="hero-img">
-                <img src="/assets/img/hero/hero_bg_2_2.jpg" alt="" />
+                <img src="/assets/img/rg/10.webp" alt="" />
               </div>
               <div className="hero-card_content">
                 <h3 className="box-title">Rooms</h3>

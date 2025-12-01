@@ -39,6 +39,7 @@ function HomeOne() {
             {/* <AboutThree /> */}
             <RunningText/>
             <Video/>
+            <AboutTwo />
             <CategoryOne />
             <BrandOne />
             {/* <GalleryOne /> */}

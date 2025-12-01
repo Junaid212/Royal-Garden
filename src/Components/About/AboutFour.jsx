@@ -21,24 +21,24 @@ function AboutFour() {
                <div className="col-xl-5">
                   <div className="ps-xl-4">
                      <div className="title-area mb-20">
-                        <span className="sub-title style1 ">Welcome To Tourm</span>
+                        <span className="sub-title style1 ">Royal Garden Experience</span>
                         <h2 className="sec-title mb-20 pe-xl-5 me-xl-5 heading">
-                           We are world reputeted travel agency
+                           Beautiful Outdoor Space For Every Celebration
                         </h2>
                      </div>
                      <p className="pe-xl-5">
-                        There are many variations of passages of available but the majority
-                        have suffered alteration in some form, by injected hum randomised
-                        words.
+                        Enjoy peaceful open spaces surrounded by greenery, perfect for events,
+                         family time, relaxation, and beautiful photos, creating memories 
+                         everyone will always cherish.
                      </p>
                      <p className="mb-30 pe-xl-5">
                         {" "}
-                        Leiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
-                        ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-                        aliquip ex ea commodo consequat. Duis aute irure dolor in
-                        reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-                        pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-                        culpa qui officia deserunt.
+                        Designed to host unforgettable celebrations, our spacious garden offers
+                         a refreshing environment filled with greenery, fresh air, and natural 
+                         light. From intimate gatherings to large functions, every moment feels 
+                         special here. Families, couples, friends, and corporate teams love the 
+                         peaceful atmosphere, ample space, and welcoming surroundings that bring 
+                         people together happily every single time.
                      </p>
                      <div className="about-item-wrap">
                         <div className="about-item style2">
@@ -46,10 +46,10 @@ function AboutFour() {
                               <img src="/assets/img/icon/about_1_1.svg" alt="" />
                            </div>
                            <div className="about-item_centent">
-                              <h5 className="box-title">Exclusive Trip</h5>
+                              <h5 className="box-title">Event Ready</h5>
                               <p className="about-item_text">
-                                 There are many variations of passages of available but the
-                                 majority.
+                                 Perfect Garden setup for weddings, parties, and celebrations with
+                                  beautiful decorations.
                               </p>
                            </div>
                         </div>
@@ -58,10 +58,9 @@ function AboutFour() {
                               <img src="/assets/img/icon/about_1_2.svg" alt="" />
                            </div>
                            <div className="about-item_centent">
-                              <h5 className="box-title">Safety First Always</h5>
+                              <h5 className="box-title">Celebrate with Nature</h5>
                               <p className="about-item_text">
-                                 There are many variations of passages of available but the
-                                 majority.
+                                 Enjoy fresh air, peaceful surroundings, and open green spaces for happiness.
                               </p>
                            </div>
                         </div>
@@ -70,10 +69,10 @@ function AboutFour() {
                               <img src="/assets/img/icon/about_1_3.svg" alt="" />
                            </div>
                            <div className="about-item_centent">
-                              <h5 className="box-title">Professional Guide</h5>
+                              <h5 className="box-title">Perfect Photoshoots</h5>
                               <p className="about-item_text">
-                                 There are many variations of passages of available but the
-                                 majority.
+                                 Capture beautiful photos with natural light, scenic backgrounds, and 
+                                 endless greenery.
                               </p>
                            </div>
                         </div>

@@ -25,15 +25,15 @@ function AboutOne() {
                     <div className="col-xl-6">
                         <div className="ps-xl-4 ms-xl-2">
                             <div className="title-area mb-20 pe-xl-5 me-xl-5">
-                                <span className="sub-title style1 ">Let’s Go Together</span>
+                                <span className="sub-title style1 ">Discover Royal Garden</span>
                                 <h2 className="sec-title mb-20 pe-xl-5 me-xl-5 heading">
-                                    Plan Your Trip With us
+                                    Perfect Space For Every Celebration
                                 </h2>
                                 <p className="sec-text mb-30">
-                                    There are many variations of passages of available but the
-                                    majority have suffered alteration in some form, by injected hum
-                                    randomised words which don't look even slightly.
-                                </p>
+                                    Enjoy peaceful surroundings, modern rooms, and a spacious garden
+                                     designed for families, friends, and events. Create unforgettable
+                                      memories together with comfort, happiness, and beautiful nature
+                                       around you.</p>
                             </div>
                             <div className="about-item-wrap">
                                 <div className="about-item">
@@ -41,10 +41,10 @@ function AboutOne() {
                                         <img src="/assets/img/icon/map3.svg" alt="" />
                                     </div>
                                     <div className="about-item_centent">
-                                        <h5 className="box-title">Exclusive Trip</h5>
+                                        <h5 className="box-title">Event Spaces</h5>
                                         <p className="about-item_text">
-                                            There are many variations of passages of available but the
-                                            majority.
+                                            Hosting weddings, parties, and gatherings becomes easy with
+                                             flexible arrangements and beautiful outdoor settings.
                                         </p>
                                     </div>
                                 </div>
@@ -53,10 +53,10 @@ function AboutOne() {
                                         <img src="/assets/img/icon/guide.svg" alt="" />
                                     </div>
                                     <div className="about-item_centent">
-                                        <h5 className="box-title">Professional Guide</h5>
+                                        <h5 className="box-title">Comfort Stay</h5>
                                         <p className="about-item_text">
-                                            There are many variations of passages of available but the
-                                            majority.
+                                            Relax in clean cozy rooms offering privacy, peaceful 
+                                            views, and modern facilities for every guest.
                                         </p>
                                     </div>
                                 </div>

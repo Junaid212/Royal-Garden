@@ -25,15 +25,14 @@ function AboutTwo() {
                     <div className="col-xl-5">
                         <div className="ps-xl-4">
                             <div className="title-area mb-20 pe-xxl-5 me-xxl-5">
-                                <span className="sub-title style1 ">Let’s Go Together</span>
+                                <span className="sub-title style1 ">Explore Our Clubhouse</span>
                                 <h2 className="sec-title mb-20 pe-xl-5 me-xl-5 heading">
-                                    Plan Your Trip With us
+                                    Fun, Comfort and Entertainment
                                 </h2>
                             </div>
                             <p className="sec-text mb-30">
-                                There are many variations of passages of available but the majority
-                                have suffered alteration in some form, by injected hum randomised
-                                words.
+                                Our clubhouse offers modern amenities, indoor games, and relaxing spaces.
+                                 Enjoy music, socializing, and leisure activities in a lively yet peaceful environment.
                             </p>
                             <div className="about-item-wrap">
                                 <div className="about-item style2">
@@ -41,10 +40,9 @@ function AboutTwo() {
                                         <img src="/assets/img/icon/about_1_1.svg" alt="" />
                                     </div>
                                     <div className="about-item_centent">
-                                        <h5 className="box-title">Exclusive Trip</h5>
+                                        <h5 className="box-title">Indoor Games</h5>
                                         <p className="about-item_text">
-                                            There are many variations of passages of available but the
-                                            majority.
+                                            Play pool, table tennis, and board games in our well-equipped clubhouse..
                                         </p>
                                     </div>
                                 </div>
@@ -53,10 +51,9 @@ function AboutTwo() {
                                         <img src="/assets/img/icon/about_1_2.svg" alt="" />
                                     </div>
                                     <div className="about-item_centent">
-                                        <h5 className="box-title">Safety First Always</h5>
+                                        <h5 className="box-title">Relax with Music</h5>
                                         <p className="about-item_text">
-                                            There are many variations of passages of available but the
-                                            majority.
+                                            Enjoy soft music, entertainment nights, and gatherings in comfortable spaces.
                                         </p>
                                     </div>
                                 </div>
@@ -65,10 +62,9 @@ function AboutTwo() {
                                         <img src="/assets/img/icon/about_1_3.svg" alt="" />
                                     </div>
                                     <div className="about-item_centent">
-                                        <h5 className="box-title">Professional Guide</h5>
+                                        <h5 className="box-title">Private Lounge</h5>
                                         <p className="about-item_text">
-                                            There are many variations of passages of available but the
-                                            majority.
+                                            Spend quality time with friends or family in a cozy lounge.
                                         </p>
                                     </div>
                                 </div>

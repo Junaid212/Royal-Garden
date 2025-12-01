@@ -9,16 +9,16 @@ const CategoryOne = () => {
   const swiperRef = useRef(null);
 
   const categories = [
-    { id: 1, title: "Cruises", imgSrc: "/assets/img/category/category_1_1.jpg" },
-    { id: 2, title: "Hiking", imgSrc: "/assets/img/category/category_1_2.jpg" },
-    { id: 3, title: "Airbirds", imgSrc: "/assets/img/category/category_1_3.jpg" },
-    { id: 4, title: "Wildlife", imgSrc: "/assets/img/category/category_1_4.jpg" },
-    { id: 5, title: "Walking", imgSrc: "/assets/img/category/category_1_5.jpg" },
-    { id: 6, title: "Cruises", imgSrc: "/assets/img/category/category_1_1.jpg" },
-    { id: 7, title: "Hiking", imgSrc: "/assets/img/category/category_1_2.jpg" },
-    { id: 8, title: "Airbirds", imgSrc: "/assets/img/category/category_1_3.jpg" },
-    { id: 9, title: "Wildlife", imgSrc: "/assets/img/category/category_1_4.jpg" },
-    { id: 10, title: "Walking", imgSrc: "/assets/img/category/category_1_5.jpg" },
+    { id: 1, title: "Cruises", imgSrc: "/assets/img/rg/20.webp" },
+    { id: 2, title: "Hiking", imgSrc: "/assets/img/rg/21.webp" },
+    { id: 3, title: "Airbirds", imgSrc: "/assets/img/rg/22.webp" },
+    { id: 4, title: "Wildlife", imgSrc: "/assets/img/rg/23.webp" },
+    { id: 5, title: "Walking", imgSrc: "/assets/img/rg/24.webp" },
+    { id: 6, title: "Cruises", imgSrc: "/assets/img/rg/25.webp" },
+    // { id: 7, title: "Hiking", imgSrc: "/assets/img/category/category_1_2.jpg" },
+    // { id: 8, title: "Airbirds", imgSrc: "/assets/img/category/category_1_3.jpg" },
+    // { id: 9, title: "Wildlife", imgSrc: "/assets/img/category/category_1_4.jpg" },
+    // { id: 10, title: "Walking", imgSrc: "/assets/img/category/category_1_5.jpg" },
   ];
 
   useEffect(() => {

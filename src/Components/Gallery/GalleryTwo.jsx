@@ -32,7 +32,7 @@ function GalleryTwo() {
                         <div className="title-area text-center text-lg-start mb-20 pe-xl-5 me-xl-5">
                             <span className="sub-title">Welcome to Royal Garden</span>
                             <h2 className="sec-title">
-                                A beautiful place designed thoughtfully for unforgettable experiences
+                                A Beautiful Place Designed Thoughtfully For Unforgettable Experiences
                             </h2>
                         </div>
                         <p className="sec-text style2 text-title mb-50">
@@ -55,17 +55,17 @@ function GalleryTwo() {
                         <div className="gallery-box">
                             <div className="gallery-img global-img">
                                 <Link
-                                    to="/assets/img/gallery/gallery_2_1.jpg"
+                                    to="/assets/img/rg/12.webp"
                                     className="popup-image"
-                                    onClick={(e) => openModal('/assets/img/gallery/gallery_2_1.jpg', e)}
+                                    onClick={(e) => openModal('/assets/img/rg/12.webp', e)}
                                 >
                                     <div className="icon-btn">
                                         <i className="fal fa-magnifying-glass-plus" />
                                     </div>
                                     <img
-                                        src="/assets/img/gallery/gallery_2_1.jpg"
+                                        src="/assets/img/rg/12.webp"
                                         alt="gallery"
-                                        onClick={(e) => openModal('/assets/img/gallery/gallery_2_1.jpg', e)}
+                                        onClick={(e) => openModal('/assets/img/rg/12.webp', e)}
                                     />
                                 </Link>
                             </div>
@@ -75,17 +75,17 @@ function GalleryTwo() {
                         <div className="gallery-box">
                             <div className="gallery-img global-img">
                                 <Link
-                                    to="/assets/img/gallery/gallery_2_2.jpg"
+                                    to="/assets/img/rg/13.webp"
                                     className="popup-image"
-                                    onClick={(e) => openModal('/assets/img/gallery/gallery_2_2.jpg', e)}
+                                    onClick={(e) => openModal('/assets/img/rg/13.webp', e)}
                                 >
                                     <div className="icon-btn">
                                         <i className="fal fa-magnifying-glass-plus" />
                                     </div>
                                     <img
-                                        src="/assets/img/gallery/gallery_2_2.jpg"
+                                        src="/assets/img/rg/13.webp"
                                         alt="gallery"
-                                        onClick={(e) => openModal('/assets/img/gallery/gallery_2_2.jpg', e)}
+                                        onClick={(e) => openModal('/assets/img/rg/13.webp', e)}
                                     />
                                 </Link>
                             </div>
@@ -93,17 +93,17 @@ function GalleryTwo() {
                         <div className="gallery-box">
                             <div className="gallery-img global-img">
                                 <Link
-                                    to="/assets/img/gallery/gallery_2_3.jpg"
+                                    to="/assets/img/rg/14.webp"
                                     className="popup-image"
-                                    onClick={(e) => openModal('/assets/img/gallery/gallery_2_3.jpg', e)}
+                                    onClick={(e) => openModal('/assets/img/rg/14.webp', e)}
                                 >
                                     <div className="icon-btn">
                                         <i className="fal fa-magnifying-glass-plus" />
                                     </div>
                                     <img
-                                        src="/assets/img/gallery/gallery_2_3.jpg"
+                                        src="/assets/img/rg/14.webp"
                                         alt="gallery"
-                                        onClick={(e) => openModal('/assets/img/gallery/gallery_2_3.jpg', e)}
+                                        onClick={(e) => openModal('/assets/img/rg/14.webp', e)}
                                     />
                                 </Link>
                             </div>
@@ -113,7 +113,7 @@ function GalleryTwo() {
                         <div className="gallery-box">
                             <div className="gallery-img global-img">
                                 <Link
-                                    to="/assets/img/gallery/gallery_2_4.jpg"
+                                    to="/assets/img/rg/15.webp"
                                     className="popup-image"
                                     onClick={(e) => openModal('/assets/img/gallery/gallery_2_4.jpg', e)}
                                 >
@@ -121,7 +121,7 @@ function GalleryTwo() {
                                         <i className="fal fa-magnifying-glass-plus" />
                                     </div>
                                     <img
-                                        src="/assets/img/gallery/gallery_2_4.jpg"
+                                        src="/assets/img/rg/15.webp"
                                         alt="gallery"
                                         onClick={(e) => openModal('/assets/img/gallery/gallery_2_4.jpg', e)}
                                     />
@@ -131,7 +131,7 @@ function GalleryTwo() {
                         <div className="gallery-box">
                             <div className="gallery-img global-img">
                                 <Link
-                                    to="/assets/img/gallery/gallery_2_5.jpg"
+                                    to="/assets/img/rg/16.webp"
                                     className="popup-image"
                                     onClick={(e) => openModal('/assets/img/gallery/gallery_2_5.jpg', e)}
                                 >
@@ -139,7 +139,7 @@ function GalleryTwo() {
                                         <i className="fal fa-magnifying-glass-plus" />
                                     </div>
                                     <img
-                                        src="/assets/img/gallery/gallery_2_5.jpg"
+                                        src="/assets/img/rg/16.webp"
                                         alt="gallery"
                                         onClick={(e) => openModal('/assets/img/gallery/gallery_2_5.jpg', e)}
                                     />
@@ -151,7 +151,7 @@ function GalleryTwo() {
                         <div className="gallery-box">
                             <div className="gallery-img global-img">
                                 <Link
-                                    to="/assets/img/gallery/gallery_2_6.jpg"
+                                    to="/assets/img/rg/17.webp"
                                     className="popup-image"
                                     onClick={(e) => openModal('/assets/img/gallery/gallery_2_6.jpg', e)}
                                 >
@@ -159,7 +159,7 @@ function GalleryTwo() {
                                         <i className="fal fa-magnifying-glass-plus" />
                                     </div>
                                     <img
-                                        src="/assets/img/gallery/gallery_2_6.jpg"
+                                        src="/assets/img/rg/17.webp"
                                         alt="gallery"
                                         onClick={(e) => openModal('/assets/img/gallery/gallery_2_6.jpg', e)}
                                     />

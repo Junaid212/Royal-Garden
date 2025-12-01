@@ -8,8 +8,8 @@ export default function RunningText() {
     "Host Events",
     "Family Gatherings",
     "Peaceful Stays",
-    "Outdoor Photoshoots",
     "Weekend Getaways",
+    "Stay & Celebrate",
   ];
 
   const styles = {
@@ -244,7 +244,7 @@ export default function RunningText() {
                   </span>
                   <span style={{ fontSize: '20px', color: '#047857' }}>✨</span>
                   <span style={{ ...styles.secondaryText, margin: '0 16px' }}>
-                    Outdoor Photoshoots
+                    Stay & Celebrate
                   </span>
                   <span style={{ fontSize: '20px', color: '#047857' }}>✨</span>
                   <span style={{ ...styles.secondaryText, margin: '0 16px' }}>

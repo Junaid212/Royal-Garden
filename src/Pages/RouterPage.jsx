@@ -30,11 +30,13 @@ import Error from './Error'
 import Blog from './Blog'
 import BlogDetails from './BlogDetails'
 import Contact from './Contact'
+import WhatsAppButton from '../Components/WhatsAppButton'
 function RouterPage() {
   return (
     <div>
       <Router>
         <LoadTop />
+        {/* <WhatsAppButton/> */}
         <Routes>
           <Route path="/" element={<HomeOne />}></Route>
           <Route path="/home-tour" element={<HomeTwo />}></Route>
