@@ -95,37 +95,37 @@ function TestimonialThree() {
 
 const testimonials = [
     {
-        image: "/assets/img/testimonial/testi_3_1.png",
+        image: "/assets/img/rg/38.webp",
         text: "“We loved our stay at Royal Garden. Peaceful vibe, clean comfortable rooms, beautiful views, tasty food, and friendly service made our family trip amazing and memorable.”",
         name: "Pushpa",
         designation: "Traveller",
     },
     {
-        image: "/assets/img/testimonial/testi_3_2.png",
+        image: "/assets/img/rg/39.webp",
         text: "“Very spacious, green, and beautifully maintained resort for our family reunion. Great rooms, helpful management, fun activities, and stunning beachside location. Truly memorable experience. We will definitely return.”",
         name: " Mohammed Salman",
         designation: "Traveller",
     },
     {
-        image: "/assets/img/testimonial/testi_3_3.png",
+        image: "/assets/img/rg/40.webp",
         text: "“Beautiful luxury beach resort offering big pool, indoor games, campfire music, gym, spa, and raindance. Spacious clean rooms, cooperative staff, wonderful stay. Definitely visiting again always.”",
         name: "James Anto ",
         designation: "Traveller",
     },
     {
-        image: "/assets/img/testimonial/testi_3_4.png",
+        image: "/assets/img/rg/41.webp",
         text: "It is nice place for long marriage,anniversary,reception....etc and good full children to play and the assistant manager sukhen is very friendly with us.",
         name: "Fazil",
         designation: "Traveller",
     },
     {
-        image: "/assets/img/testimonial/testi_3_5.png",
+        image: "/assets/img/rg/42.webp",
         text: "Just love the space and the amount is worth... Trust me on this I am an event planner you can do amazing things here.",
         name: "Deral Dalmeida",
         designation: "Traveller",
     },
     {
-        image: "/assets/img/testimonial/testi_3_6.png",
+        image: "/assets/img/rg/43.webp",
         text: "“Huge beautiful property located just outside the city, offering peaceful surroundings and plenty of space. Perfect venue for big family gatherings, weddings, celebrations, and memorable functions with everyone together happily.”",
         name: "Ashwith Ullal",
         designation: "Traveller",

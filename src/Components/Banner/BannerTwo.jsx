@@ -41,7 +41,7 @@ function BannerTwo() {
   };
   return (
     <div className="hero-2" id="hero">
-      <div className="hero2-overlay" style={{ backgroundImage: 'url(/assets/img/bg/line-pattern.png)'}} />
+      <div className="hero2-overlay" style={{ backgroundImage: 'url(/assets/img/bg/line-pattern.png)', background:'linear-gradient(90deg,rgba(191, 140, 0, 1) 0%, rgba(255, 217, 112, 1) 50%, rgba(176, 130, 4, 1) 100%)', borderRadius:'0 0 24px 24px'}} />
       {/* Main Swiper */}
       <Swiper
         modules={[Pagination, Navigation, Thumbs, EffectFade, Autoplay]} // Added necessary modules
@@ -87,7 +87,7 @@ function BannerTwo() {
         </SwiperSlide>
         <SwiperSlide>
           <div className="hero-inner">
-            <div className="th-hero-bg" style={{ backgroundImage: 'url(/assets/img/rg/6.webp)', backgroundRepeat: "no-repeat", backgroundSize: "cover" }} />
+            <div className="th-hero-bg" style={{ backgroundImage: 'url(/assets/img/rg/34.webp)', backgroundRepeat: "no-repeat", backgroundSize: "cover" }} />
             <div className="container">
               <div className="hero-style2">
                 <h1 className="hero-title" data-ani="slideinup" data-ani-delay="0.4s">

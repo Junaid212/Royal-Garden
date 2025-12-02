@@ -86,7 +86,7 @@ function HeaderTwo() {
                                 <div className="col-auto">
                                     <div className="header-logo">
                                         <Link to="/">
-                                            <img src="/assets/img/logo3.svg" alt="Tourm" />
+                                            <img src="/assets/img/rg/29.webp" alt="Tourm" />
                                         </Link>
                                     </div>
                                 </div>

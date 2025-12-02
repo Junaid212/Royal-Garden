@@ -93,9 +93,9 @@ export default function RunningText() {
     marqueeSecondary: {
       overflow: 'hidden',
       padding: '16px 0',
-      backgroundColor: 'white',
-      borderTop: '1px solid #a7f3d0',
-      borderBottom: '1px solid #a7f3d0'
+      background: 'linear-gradient(90deg,rgba(191, 140, 0, 1) 0%, rgba(255, 217, 112, 1) 50%, rgba(176, 130, 4, 1) 100%)',
+      // borderTop: '1px solid #a7f3d0',
+      // borderBottom: '1px solid #a7f3d0'
     },
     marqueeTertiary: {
       overflow: 'hidden',

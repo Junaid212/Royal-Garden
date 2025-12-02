@@ -6,7 +6,15 @@ function Breadcrumb({ title, description, bgImage }) {
         <>
             <div
                 className="breadcumb-wrapper "
-                style={{ backgroundImage: `url(${bgImage || '/assets/img/bg/breadcumb-bg.jpg'})`, backgroundRepeat:"no-repeat", backgroundSize:"cover" }}
+                style={{
+  backgroundImage: `linear-gradient(
+      rgba(0,0,0,0.5), 
+      rgba(0,0,0,0.5)
+    ), url(${bgImage || '/assets/img/rg/30.webp'})`,
+  backgroundRepeat: "no-repeat",
+  backgroundSize: "cover",
+}}
+
             >
                 <div className="container">
                     <div className="breadcumb-content">

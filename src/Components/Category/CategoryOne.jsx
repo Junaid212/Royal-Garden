@@ -74,9 +74,9 @@ const CategoryOne = () => {
   return (
     <section
       className="category-area bg-top-center"
-      style={{ backgroundImage: "url(/assets/img/bg/category_bg_1.png)", backgroundRepeat: "no-repeat" }}
+      style={{ backgroundImage: "url(/assets/img/rg/26.webp)", backgroundRepeat: "no-repeat" }}
     >
-      <div className="container th-container">
+      <div className="container th-container" style={{background:'none',}}>
         <div className="title-area text-center">
           <span className="sub-title">Wonderful Place For You</span>
           <h2 className="sec-title">Garden & Suites</h2>

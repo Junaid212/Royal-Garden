@@ -12,13 +12,13 @@ function AboutTwo() {
                     <div className="col-xl-7">
                         <div className="img-box3">
                             <div className="img1">
-                                <img src="/assets/img/normal/about_3_1.jpg" alt="About" />
+                                <img src="/assets/img/rg/27.webp" alt="About" />
                             </div>
                             <div className="img2">
-                                <img src="/assets/img/normal/about_3_2.jpg" alt="About" />
+                                <img src="/assets/img/rg/28.webp" alt="About" />
                             </div>
                             <div className="img3 movingX">
-                                <img src="/assets/img/normal/about_3_3.jpg" alt="About" />
+                                {/* <img src="/assets/img/normal/about_3_3.jpg" alt="About" /> */}
                             </div>
                         </div>
                     </div>
@@ -70,9 +70,9 @@ function AboutTwo() {
                                 </div>
                             </div>
                             <div className="mt-35">
-                                <Link to="/about" className="th-btn style3 th-icon">
+                                {/* <Link to="/about" className="th-btn style3 th-icon">
                                     Learn More
-                                </Link>
+                                </Link> */}
                             </div>
                         </div>
                     </div>

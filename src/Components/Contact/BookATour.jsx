@@ -14,14 +14,14 @@ function BookATour() {
     return (
         <div
             className="space-extra2-top space-extra2-bottom"
-            style={{ background: "url(/assets/img/bg/video_bg_1.jpg)", backgroundRepeat: "no-repeat", backgroundSize: "cover" }}
+            style={{ background: "url(/assets/img/rg/44.webp)", backgroundRepeat: "no-repeat", backgroundSize: "cover" }}
         >
             <div className="container">
                 <div className="row flex-row-reverse justify-content-center align-items-center">
                     <div className="col-lg-6">
                         <div className="video-box1">
                             <button className="play-btn style2 popup-video" onClick={() => setModalIsOpen(true)}>
-                                <i className="fa-sharp fa-solid fa-play" />
+                                {/* <i className="fa-sharp fa-solid fa-play" /> */}
                             </button>
                         </div>
                     </div>
