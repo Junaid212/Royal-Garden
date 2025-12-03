@@ -86,7 +86,7 @@ function HeaderTwo() {
                                 <div className="col-auto">
                                     <div className="header-logo">
                                         <Link to="/">
-                                            <img src="/assets/img/rg/29.webp" alt="Tourm" />
+                                            <img src="/assets/img/rg/29.webp" alt="Royal Garden" />
                                         </Link>
                                     </div>
                                 </div>
@@ -228,7 +228,7 @@ function HeaderTwo() {
                                                 </ul> */}
                                             </li>
                                             <li className="">
-                                                <Link to="#">Rooms</Link>
+                                                <Link to="/activities">Rooms</Link>
                                                 {/* <ul className="sub-menu">
                                                     <li>
                                                         <Link to="/activities">activities</Link>

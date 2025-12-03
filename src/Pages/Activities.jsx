@@ -4,16 +4,24 @@ import Breadcrumb from '../Components/BreadCrumb/Breadcrumb'
 import ActivitiesInner from '../Components/Activities/ActivitiesInner'
 import FooterFour from '../Components/Footer/FooterFour'
 import ScrollToTop from '../Components/ScrollToTop'
+import HeaderTwo from '../Components/Header/HeaderTwo'
+import ServiceInner from '../Components/Services/ServiceInner'
+import PopularDestination from '../Components/Destination/PopularDestination'
+import DestinationTwo from '../Components/Destination/DestinationTwo'
+import FooterTwo from '../Components/Footer/FooterTwo'
 
 function Activities() {
     return (
         <>
-            <HeaderOne />
+            <HeaderTwo />
             <Breadcrumb
-                title="Activities"
+                title="Rooms"
             />
-            <ActivitiesInner />
-            <FooterFour />
+            {/* <PopularDestination /> */}
+            <DestinationTwo />
+            <ServiceInner />
+            {/* <ActivitiesInner /> */}
+            <FooterTwo />
             <ScrollToTop />
         </>
     )

@@ -9,6 +9,7 @@ import ScrollToTop from '../Components/ScrollToTop'
 import AboutFour from '../Components/About/AboutFour'
 import HeaderThree from '../Components/Header/HeaderThree'
 import HeaderTwo from '../Components/Header/HeaderTwo'
+import FooterTwo from '../Components/Footer/FooterTwo'
 
 function Service() {
     return (
@@ -18,10 +19,10 @@ function Service() {
                 title="Garden"
             />
             <AboutFour />
-            <ServiceInner />
-            <TourTwo />
-            <PricingPlan className="space-bottom"/>
-            <FooterFour />
+            {/* <ServiceInner /> */}
+            {/* <TourTwo /> */}
+            {/* <PricingPlan className="space-bottom"/> */}
+            <FooterTwo />
             <ScrollToTop />
         </div>
     )

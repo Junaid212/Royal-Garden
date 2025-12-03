@@ -3,10 +3,10 @@ import { Link } from "react-router-dom";
 
 function DestinationTwo() {
     const destinations = [
-        { name: "Thailand", image: "destination_2_1.jpg", listings: 28 },
-        { name: "Belgium", image: "destination_2_2.jpg", listings: 15 },
-        { name: "Island", image: "destination_2_3.jpg", listings: 22 },
-        { name: "Maldives", image: "destination_2_4.jpg", listings: 25 },
+        { name: "Thailand", image: "47.webp", listings: 28 },
+        { name: "Belgium", image: "48.webp", listings: 15 },
+        { name: "Island", image: "49.webp", listings: 22 },
+        { name: "Maldives", image: "50.webp", listings: 25 },
     ];
 
     const [activeIndex, setActiveIndex] = useState(3); // Default active index (Maldives)
@@ -15,12 +15,16 @@ function DestinationTwo() {
         <div
             className="bg-top-center position-relative space"
             id="destination-sec"
-            style={{ backgroundImage: "url('/assets/img/bg/line-pattern2.png')", backgroundRepeat: "no-repeat" }}
+            style={{ backgroundImage: "url('/assets/img/rg/46.webp')", backgroundRepeat: "no-repeat" }}
         >
             <div className="container shape-mockup-wrap">
                 <div className="title-area text-center">
-                    <span className="sub-title">Top Destination</span>
-                    <h2 className="sec-title">Our Featured Destination</h2>
+                    <span className="sub-title">Comfortable Rooms Await</span>
+                    <h2 className="sec-title">Perfect Stay for Families and Groups</h2>
+                    <p className="tour-text">
+                        Enjoy clean cozy rooms offering peaceful views, modern facilities, 
+                        comfortable beds, and everything needed for a relaxing stay always.
+                    </p>
                 </div>
                 <div className="row">
                     <div className="destination-list-area">
@@ -32,27 +36,27 @@ function DestinationTwo() {
                             >
                                 <div
                                     className="destination-list"
-                                    style={{ backgroundImage: `url('/assets/img/destination/${item.image}')` }}
+                                    style={{ backgroundImage: `url('/assets/img/rg/${item.image}')` }}
                                 >
                                     <div className="destination-content">
                                         <h4 className="box-title">
                                             <Link to="/destination/1">{item.name}</Link>
                                         </h4>
-                                        <span className="destination-subtitle">{item.listings} Listing</span>
+                                        {/* <span className="destination-subtitle">{item.listings} Listing</span> */}
                                     </div>
-                                    <Link to="/contact" className="th-btn style2">
+                                    {/* <Link to="/contact" className="th-btn style2">
                                         Book Now
-                                    </Link>
+                                    </Link> */}
                                 </div>
                             </div>
                         ))}
                     </div>
                 </div>
-                <div className="destination-btn text-center mt-60">
+                {/* <div className="destination-btn text-center mt-60">
                     <Link to="/destination" className="th-btn style3 th-icon">
                         View All
                     </Link>
-                </div>
+                </div> */}
                 {/* Shape Mockups with Inline Styles */}
                 <div 
                     className="shape-mockup movingX d-none d-xl-block"

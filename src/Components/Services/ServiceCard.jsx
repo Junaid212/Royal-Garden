@@ -12,10 +12,10 @@ function ServiceCard(props) {
                     <h3 className="box-title">
                         <Link to={`/service/${serviceID}`}>{serviceTitle ? serviceTitle : 'Photo Shoot'}</Link>
                     </h3>
-                    <p className="destination-text">{serviceItem ? serviceItem : '20 Listing'}</p>
-                    <Link to="/contact" className="th-btn style4 th-icon">
+                    {/* <p className="destination-text">{serviceItem ? serviceItem : '20 Listing'}</p> */}
+                    {/* <Link to="/contact" className="th-btn style4 th-icon">
                         Book Now
-                    </Link>
+                    </Link> */}
                 </div>
             </div>
     )

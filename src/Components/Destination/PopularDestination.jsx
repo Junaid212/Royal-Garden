@@ -33,77 +33,77 @@ const destinations = [
         duration: "7 Days",
         link: "/tour-details",
     },
-    {
-        id: 4,
-        title: "Switzerland",
-        image: "/assets/img/tour/tour_2_4.jpg",
-        rating: 4.8,
-        price: 980,
-        duration: "7 Days",
-        link: "/tour-details",
-    },
-    {
-        id: 5,
-        title: "Greece Tour Package",
-        image: "/assets/img/tour/tour_2_1.jpg",
-        rating: 4.8,
-        price: 980,
-        duration: "7 Days",
-        link: "/tour-details",
-    },
-    {
-        id: 6,
-        title: "Italy Tour Package",
-        image: "/assets/img/tour/tour_2_2.jpg",
-        rating: 4.8,
-        price: 980,
-        duration: "7 Days",
-        link: "/tour-details",
-    },
-    {
-        id: 7,
-        title: "Dubai Tour Package",
-        image: "/assets/img/tour/tour_2_3.jpg",
-        rating: 4.8,
-        price: 980,
-        duration: "7 Days",
-        link: "/tour-details",
-    },
-    {
-        id: 8,
-        title: "Switzerland",
-        image: "/assets/img/tour/tour_2_4.jpg",
-        rating: 4.8,
-        price: 980,
-        duration: "7 Days",
-        link: "/tour-details",
-    },
+    // {
+    //     id: 4,
+    //     title: "Switzerland",
+    //     image: "/assets/img/tour/tour_2_4.jpg",
+    //     rating: 4.8,
+    //     price: 980,
+    //     duration: "7 Days",
+    //     link: "/tour-details",
+    // },
+    // {
+    //     id: 5,
+    //     title: "Greece Tour Package",
+    //     image: "/assets/img/tour/tour_2_1.jpg",
+    //     rating: 4.8,
+    //     price: 980,
+    //     duration: "7 Days",
+    //     link: "/tour-details",
+    // },
+    // {
+    //     id: 6,
+    //     title: "Italy Tour Package",
+    //     image: "/assets/img/tour/tour_2_2.jpg",
+    //     rating: 4.8,
+    //     price: 980,
+    //     duration: "7 Days",
+    //     link: "/tour-details",
+    // },
+    // {
+    //     id: 7,
+    //     title: "Dubai Tour Package",
+    //     image: "/assets/img/tour/tour_2_3.jpg",
+    //     rating: 4.8,
+    //     price: 980,
+    //     duration: "7 Days",
+    //     link: "/tour-details",
+    // },
+    // {
+    //     id: 8,
+    //     title: "Switzerland",
+    //     image: "/assets/img/tour/tour_2_4.jpg",
+    //     rating: 4.8,
+    //     price: 980,
+    //     duration: "7 Days",
+    //     link: "/tour-details",
+    // },
 
 ];
 const sectionStyle = {
     position: "relative",
     overflow: "hidden",
-    backgroundImage: "url('/assets/img/bg/tour_bg_2.jpg')",
+    backgroundImage: "url('/assets/img/rg/26.webp')",
     backgroundPosition: "top center",
     zIndex: 3,
     backgroundRepeat: "no-repeat",
-    marginBottom: -348,
+    marginBottom: -48,
   };
 
 function PopularDestination() {
     return (
         <section
-            className="tour-sec2 position-relative overflow-hidden bg-top-center z-index-3 space-top"
+            className="tour-sec2 position-relative overflow-hidden bg-top-center z-index-3 space-top "
             id="tour-sec"
             style={sectionStyle}
         >
             <div className="container">
                 <div className="title-area mb-15 text-center">
-                    <span className="sub-title">Best Recommended Places</span>
-                    <h2 className="sec-title">Popular Destination We Offer For All</h2>
+                    <span className="sub-title">Comfortable Rooms Await</span>
+                    <h2 className="sec-title">Perfect Stay for Families and Groups</h2>
                     <p className="tour-text">
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-                        tempor incididunt ut labore et dolore magna aliqua.
+                        Enjoy clean cozy rooms offering peaceful views, modern facilities, 
+                        comfortable beds, and everything needed for a relaxing stay always.
                     </p>
                 </div>
 
@@ -120,7 +120,7 @@ function PopularDestination() {
                             1199: { slidesPerView: 3 },
                             1400: { slidesPerView: 4 },
                         }}
-                        className="th-slider tourSlider2 has-shadow"
+                        className="th-slider tourSlider2 has-shadow center"
                     >
                         {destinations.map((destination) => (
                             <SwiperSlide key={destination.id}>

@@ -21,7 +21,7 @@ function GalleryTwo() {
         <div
             className="gallery-area2 bg-top-center space"
             style={{
-                backgroundImage: "url('/assets/img/bg/5.png')",
+                // backgroundImage: "url('/assets/img/bg/5.png')",
                 backgroundRepeat: "no-repeat",
             }}
             data-bg-src=""

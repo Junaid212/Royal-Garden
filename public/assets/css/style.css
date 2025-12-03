@@ -129,6 +129,8 @@ body {
   line-height: 26px;
   overflow-x: hidden;
   -webkit-font-smoothing: antialiased;
+      background-image: url(/assets/img/bg/5.png);
+  /* background-color: red; */
 }
 
 iframe {

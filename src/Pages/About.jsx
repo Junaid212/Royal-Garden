@@ -25,13 +25,14 @@ function About() {
             />
             {/* <AboutFour /> */}
             <AboutOne />
+            <BrandOne/>
             <TourGuide />
             {/* <OfferTwo /> */}
             {/* <ElementSection /> */}
             {/* <TourGuideTwo /> */}
             {/* <TestimonialOne /> */}
-            <BrandOne/>
-            <GalleryFive />
+            {/* <BrandOne/> */}
+            {/* <GalleryFive /> */}
             <FooterFour />
             <ScrollToTop />
         </>

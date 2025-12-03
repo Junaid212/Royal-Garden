@@ -6,6 +6,7 @@ import FooterFour from '../Components/Footer/FooterFour'
 import ScrollToTop from '../Components/ScrollToTop'
 import HeaderThree from '../Components/Header/HeaderThree'
 import HeaderTwo from '../Components/Header/HeaderTwo'
+import FooterTwo from '../Components/Footer/FooterTwo'
 
 function Gallery() {
     return (
@@ -15,7 +16,7 @@ function Gallery() {
                 title="Gallery"
             />
             <GalleryInner />
-            <FooterFour />
+            <FooterTwo />
             <ScrollToTop />
         </>
     )
