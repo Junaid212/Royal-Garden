@@ -10,6 +10,8 @@ import AboutFour from '../Components/About/AboutFour'
 import HeaderThree from '../Components/Header/HeaderThree'
 import HeaderTwo from '../Components/Header/HeaderTwo'
 import FooterTwo from '../Components/Footer/FooterTwo'
+import BlogThree from '../Components/Blog/BlogThree'
+import BlogTwo from '../Components/Blog/BlogTwo'
 
 function Service() {
     return (
@@ -19,6 +21,7 @@ function Service() {
                 title="Garden"
             />
             <AboutFour />
+            <BlogTwo /> 
             {/* <ServiceInner /> */}
             {/* <TourTwo /> */}
             {/* <PricingPlan className="space-bottom"/> */}

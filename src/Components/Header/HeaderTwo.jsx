@@ -86,7 +86,7 @@ function HeaderTwo() {
                                 <div className="col-auto">
                                     <div className="header-logo"style={{marginLeft:'-20px'}}>
                                         <Link to="/">
-                                            <img src="/assets/img/rg/29.webp" alt="Royal Garden" />
+                                            <img src="/assets/img/rg/29.png" alt="Royal Garden" style={{height:'90px'}}/>
                                         </Link>
                                     </div>
                                 </div>

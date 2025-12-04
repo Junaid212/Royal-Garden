@@ -79,7 +79,7 @@ function BannerTwo() {
                   Enjoy open green spaces perfect for celebrations, family time, and relaxing weekends filled with fresh air and sunshine today.
                 </p>
                 <div className="btn-group" data-ani="slideinup" data-ani-delay="0.6s">
-                  <Link to="/destination" className="th-btn white-btn th-icon">Explore Now</Link>
+                  {/* <Link to="/destination" className="th-btn white-btn th-icon">Explore Now</Link> */}
                 </div>
               </div>
             </div>
@@ -97,7 +97,7 @@ function BannerTwo() {
                   Stay in clean, cozy rooms designed to give sleep, fresh mornings, and everything needed for a calm happy stay.
                 </p>
                 <div className="btn-group" data-ani="slideinup" data-ani-delay="0.6s">
-                  <Link to="/destination" className="th-btn white-btn th-icon">Explore Now</Link>
+                  {/* <Link to="/destination" className="th-btn white-btn th-icon">Explore Now</Link> */}
                 </div>
               </div>
             </div>
@@ -109,13 +109,13 @@ function BannerTwo() {
             <div className="container">
               <div className="hero-style2">
                 <h1 className="hero-title" data-ani="slideinup" data-ani-delay="0.4s">
-                  Garden <span className="hero-text">Celebrate Special Days Outdoors Here</span>
+                  Garden <span className="hero-text">Celebrate Special Days Outdoors </span>
                 </h1>
                 <p className="hero-desc" data-ani="slideinup" data-ani-delay="0.5s">
                   Our garden is a great place for weddings, parties, photoshoots, or peaceful evening walks that everyone will love always.
                 </p>
                 <div className="btn-group" data-ani="slideinup" data-ani-delay="0.6s">
-                  <Link to="/tour" className="th-btn white-btn th-icon">Explore Now</Link>
+                  {/* <Link to="/tour" className="th-btn white-btn th-icon">Explore Now</Link> */}
                 </div>
               </div>
             </div>
@@ -133,7 +133,7 @@ function BannerTwo() {
                   Perfect for families, couples, and travelers, our rooms offer privacy, comfort, soft beds, and service that feels like home.
                 </p>
                 <div className="btn-group" data-ani="slideinup" data-ani-delay="0.6s">
-                  <Link to="/tour" className="th-btn white-btn th-icon">Explore Now</Link>
+                  {/* <Link to="/tour" className="th-btn white-btn th-icon">Explore Now</Link> */}
                 </div>
               </div>
             </div>
@@ -141,7 +141,7 @@ function BannerTwo() {
         </SwiperSlide>
       </Swiper>
       {/* Custom Navigation */}
-      <div className="th-swiper-custom">
+      {/* <div className="th-swiper-custom">
         <div className="slider-pagination" />
         <div className="hero-icon">
           <button data-slider-prev="#heroSlide2" className="hero-arrow slider-prev" onClick={() => handleSliderNavigation('prev')}>
@@ -151,7 +151,7 @@ function BannerTwo() {
             <img src="/assets/img/icon/hero-arrow-right.svg" alt="" />
           </button>
         </div>
-      </div>
+      </div> */}
       {/* Thumbs Swiper */}
       <Swiper
         modules={[Pagination, Navigation, A11y]}
@@ -220,14 +220,14 @@ function BannerTwo() {
         </SwiperSlide> */}
         {/* Add more SwiperSlides here as needed */}
       </Swiper>
-      <div className="scroll-down">
+      {/* <div className="scroll-down">
         <Link to="/#destination-sec" onClick={handleScroll} className="scroll-wrap">
           <span>
             <img src="/assets/img/icon/down-arrow.svg" alt="" />
           </span>
           Scroll Down
         </Link>
-      </div>
+      </div> */}
     </div>
   );
 }

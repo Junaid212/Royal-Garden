@@ -36,6 +36,7 @@ function RouterPage() {
     <div>
       <Router>
         <LoadTop />
+        <WhatsAppButton/>
         {/* <WhatsAppButton/> */}
         <Routes>
           <Route path="/" element={<HomeOne />}></Route>

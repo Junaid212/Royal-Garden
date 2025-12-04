@@ -29,18 +29,18 @@ const BlogTwo = () => {
     }, []);
 
     return (
-        <section className="bg-smoke overflow-hidden space-top" id="blog-sec">
+        <section className=" overflow-hidden space-top" id="blog-sec">
             <div className="container shape-mockup-wrap">
                 <div className="mb-30 text-center text-md-start">
                     <div className="row align-items-center justify-content-between">
                         <div className="col-md-7">
                             <div className="title-area mb-md-0">
-                                <span className="sub-title">Blog and Article</span>
-                                <h2 className="sec-title">News & Articles From Tourm</h2>
+                                <span className="sub-title">Gardens</span>
+                                {/* <h2 className="sec-title">News & Articles From Tourm</h2> */}
                             </div>
                         </div>
                         <div className="col-md-auto">
-                            <Link to="/blog" className="th-btn style4 th-icon">See More Articles</Link>
+                            {/* <Link to="/blog" className="th-btn style4 th-icon">See More Articles</Link> */}
                         </div>
                     </div>
                 </div>
@@ -56,52 +56,52 @@ const BlogTwo = () => {
                                 {
                                     date: 'July 05 2024',
                                     time: '6 min read',
-                                    image: '/assets/img/blog/blog_2_1.jpg',
+                                    image: '/assets/img/rg/74.webp',
                                     title: '10 Reason why you should visit New Jersey',
                                     link: '/blog/1',
                                 },
                                 {
                                     date: 'July 06 2024',
                                     time: '7 min read',
-                                    image: '/assets/img/blog/blog_2_2.jpg',
+                                    image: '/assets/img/rg/75.webp',
                                     title: 'The best time to visit Japan & enjoy the cherry blossoms',
                                     link: '/blog/1',
                                 },
                                 {
                                     date: 'July 07 2024',
                                     time: '8 min read',
-                                    image: '/assets/img/blog/blog_2_3.jpg',
+                                    image: '/assets/img/rg/76.webp',
                                     title: 'The 7 amazing destinations for adventure seekers',
                                     link: '/blog/1',
                                 },
                                 {
                                     date: 'July 09 2024',
                                     time: '9 min read',
-                                    image: '/assets/img/blog/blog_2_1.jpg',
+                                    image: '/assets/img/rg/77.webp',
                                     title: '10 Reason why you should visit New Jersey',
                                     link: '/blog/1',
                                 },
-                                {
-                                    date: 'July 10 2024',
-                                    time: '10 min read',
-                                    image: '/assets/img/blog/blog_2_2.jpg',
-                                    title: 'The best time to visit Japan & enjoy the cherry blossoms',
-                                    link: '/blog/1',
-                                },
-                                {
-                                    date: 'July 12 2024',
-                                    time: '11 min read',
-                                    image: '/assets/img/blog/blog_2_3.jpg',
-                                    title: 'The 7 amazing destinations for adventure seekers',
-                                    link: '/blog/1',
-                                },
+                                // {
+                                //     date: 'July 10 2024',
+                                //     time: '10 min read',
+                                //     image: '/assets/img/blog/blog_2_2.jpg',
+                                //     title: 'The best time to visit Japan & enjoy the cherry blossoms',
+                                //     link: '/blog/1',
+                                // },
+                                // {
+                                //     date: 'July 12 2024',
+                                //     time: '11 min read',
+                                //     image: '/assets/img/blog/blog_2_3.jpg',
+                                //     title: 'The 7 amazing destinations for adventure seekers',
+                                //     link: '/blog/1',
+                                // },
                             ].map((post, index) => (
                                 <div className="swiper-slide" key={index}>
                                     <div className="blog-box th-ani">
                                         <div className="blog-img global-img">
                                             <img src={post.image} alt="blog" />
                                         </div>
-                                        <div className="blog-box_content">
+                                        {/* <div className="blog-box_content">
                                             <div className="blog-meta">
                                                 <Link className="author" to="/blog">
                                                     {post.date}
@@ -114,7 +114,7 @@ const BlogTwo = () => {
                                             <Link to={post.link} className="th-btn style4 th-icon">
                                                 Read More
                                             </Link>
-                                        </div>
+                                        </div> */}
                                     </div>
                                 </div>
                             ))}

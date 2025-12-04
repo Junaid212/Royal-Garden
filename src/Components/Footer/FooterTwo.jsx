@@ -147,7 +147,7 @@ function FooterTwo() {
                                 <div className="sidebar-gallery">
                                     <div className="gallery-thumb">
                                         <img
-                                            src="/assets/img/rg/66.webp"
+                                            src="/assets/img/rg/72.webp"
                                             alt="Gallery"
                                         />
                                         <Link

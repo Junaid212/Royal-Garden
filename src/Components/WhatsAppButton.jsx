@@ -1,7 +1,7 @@
 import { useState } from 'react';
 import { MessageCircle } from "lucide-react";
 
-const WhatsAppButton = ({ phoneNumber = "1234567890", message = "Hello!" }) => {
+const WhatsAppButton = ({ phoneNumber = "+919632526302", message = "Hello!" }) => {
   const [isHovered, setIsHovered] = useState(false);
   
   const whatsappUrl = `https://wa.me/${phoneNumber}?text=${encodeURIComponent(message)}`;
@@ -9,7 +9,7 @@ const WhatsAppButton = ({ phoneNumber = "1234567890", message = "Hello!" }) => {
   const buttonStyle = {
     position: 'fixed',
     bottom: '6rem',
-    right: '2rem',
+    right: '1.85rem',
     width: '3.5rem',
     height: '3.5rem',
     borderRadius: '9999px',

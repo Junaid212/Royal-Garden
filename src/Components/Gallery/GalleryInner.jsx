@@ -17,7 +17,7 @@ function GalleryInner() {
     };
 
     // Gallery images data
-    const galleryImages = Array.from({ length: 12 }, (_, i) => ({
+    const galleryImages = Array.from({ length: 16 }, (_, i) => ({
         id: i + 1,
         src: `/assets/img/rg/${51 + i}.webp`,
         alt: `gallery image ${51 + i}`

@@ -78,11 +78,11 @@ function AboutFour() {
                            </div>
                         </div>
                      </div>
-                     <div className="mt-35">
+                     {/* <div className="mt-35">
                         <Link to="/contact" className="th-btn style3 th-icon">
                            Contact With Us
                         </Link>
-                     </div>
+                     </div> */}
                   </div>
                </div>
             </div>

@@ -11416,6 +11416,7 @@ ul.comment-list:has(> .th-comment-item ~ .th-comment-item):first-child > .th-pos
   position: absolute;
   inset: 0;
   z-index: -1;
+  height: 600px;
   /* background-color: red !important; */
 }
 
@@ -11699,7 +11700,7 @@ ul.comment-list:has(> .th-comment-item ~ .th-comment-item):first-child > .th-pos
   position: absolute !important;
   bottom: 70px;
   bottom: 250px;
-  right: 0;
+  right: 550px;
   margin-right: 0 !important;
   /* Large devices */
 }
