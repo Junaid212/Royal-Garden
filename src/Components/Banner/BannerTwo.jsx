@@ -105,7 +105,7 @@ function BannerTwo() {
         </SwiperSlide>
         <SwiperSlide>
           <div className="hero-inner">
-            <div className="th-hero-bg" style={{ backgroundImage: 'url(/assets/img/rg/9.webp)', backgroundRepeat: "no-repeat", backgroundSize: "cover" }} />
+            <div className="th-hero-bg" style={{ backgroundImage: 'url(/assets/img/rg/65.webp)', backgroundRepeat: "no-repeat", backgroundSize: "cover" }} />
             <div className="container">
               <div className="hero-style2">
                 <h1 className="hero-title" data-ani="slideinup" data-ani-delay="0.4s">

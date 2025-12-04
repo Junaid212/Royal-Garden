@@ -1,3 +1,4 @@
+import { CalendarHeart, Warehouse } from 'lucide-react'
 import React from 'react'
 import { Link } from 'react-router-dom'
 
@@ -38,7 +39,7 @@ function AboutOne() {
                             <div className="about-item-wrap">
                                 <div className="about-item">
                                     <div className="about-item_img">
-                                        <img src="/assets/img/icon/map3.svg" alt="" />
+                                        <CalendarHeart size={32} color="#ffffffff" strokeWidth={1} />
                                     </div>
                                     <div className="about-item_centent">
                                         <h5 className="box-title">Event Spaces</h5>
@@ -50,7 +51,7 @@ function AboutOne() {
                                 </div>
                                 <div className="about-item">
                                     <div className="about-item_img">
-                                        <img src="/assets/img/icon/guide.svg" alt="" />
+                                        <Warehouse size={32} color="#ffffff" strokeWidth={1} />
                                     </div>
                                     <div className="about-item_centent">
                                         <h5 className="box-title">Comfort Stay</h5>

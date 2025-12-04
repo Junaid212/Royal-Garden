@@ -1048,7 +1048,7 @@ ul.wp-block-rss a {
 @media only screen and (min-width: 1300px) {
   .th-container {
     --main-container: 1776px;
-    background: linear-gradient(90deg,rgba(191, 140, 0, 1) 0%, rgba(255, 217, 112, 1) 50%, rgba(176, 130, 4, 1) 100%);;
+    background: linear-gradient(90deg,rgba(191, 140, 0, 1) 0%, rgba(255, 217, 112, 1) 50%, rgba(176, 130, 4, 1) 100%);
   }
 }
 
@@ -8162,7 +8162,8 @@ ol.wp-block-rss {
 }
 
 .header-layout1 .sticky-wrapper.sticky .menu-area {
-  background-image: none !important;
+  /* background-image: none !important; */
+  background: linear-gradient(90deg,rgba(191, 140, 0, 1) 0%, rgba(255, 217, 112, 1) 50%, rgba(176, 130, 4, 1) 100%);
 }
 
 .header-layout1 .sticky-wrapper .menu-area {
@@ -8172,6 +8173,7 @@ ol.wp-block-rss {
 @media (max-width: 1199px) {
   .header-layout1 .sticky-wrapper .menu-area {
     padding: 12px 0;
+    background: linear-gradient(90deg,rgba(191, 140, 0, 1) 0%, rgba(255, 217, 112, 1) 50%, rgba(176, 130, 4, 1) 100%);
   }
 }
 
@@ -26379,6 +26381,14 @@ span.select2-selection.select2-selection--single:focus {
   /* Extra small devices */
   /* Small devices */
 }
+
+/* Hide on mobile (up to 767px wide) */
+@media (max-width: 767px) {
+  .hide-mobile {
+    display: none !important;
+  }
+}
+
 
 @media (max-width: 375px) {
   .history-item {

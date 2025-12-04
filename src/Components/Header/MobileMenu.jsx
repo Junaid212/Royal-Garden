@@ -40,17 +40,17 @@ function MobileMenu({ isOpen, onClose }) {
 
                 <div className="mobile-logo">
                     <Link to="/">
-                        <img src="/assets/img/logo2.svg" alt="Tourm" />
+                        <img src="/assets/img/rg/29.webp" alt="Tourm" />
                     </Link>
                 </div>
 
                 <div className="th-mobile-menu">
                     <ul>
                         {/* Home */}
-                        <li className={`menu-item-has-children mega-menu-wrap th-item-has-children ${activeMenu === 1 ? "th-active" : ""}`}>
-                            <Link to="#" onClick={() => toggleMenu(1)}>Home
+                        <li className={` mega-menu-wrap  ${activeMenu === 1 ? "th-active" : ""}`}>
+                            <Link to="/" onClick={() => toggleMenu(1)}>Home
                             </Link>
-                            <ul
+                            {/* <ul
                                 ref={(el) => (menuRefs.current[1] = el)}
                                 className="th-submenu"
                                 style={{ height: "0px", overflow: "hidden", transition: "height 0.3s ease-in-out" }}
@@ -59,28 +59,28 @@ function MobileMenu({ isOpen, onClose }) {
                                 <li><Link to="/home-tour">Home Tour</Link></li>
                                 <li><Link to="/home-agency">Home Agency</Link></li>
                                 <li><Link to="/home-yacht">Home Yacht</Link></li>
-                            </ul>
+                            </ul> */}
                         </li>
 
                         {/* About Us */}
                         <li><Link to="/about">About Us</Link></li>
 
                         {/* Destination */}
-                        <li className={`menu-item-has-children th-item-has-children ${activeMenu === 2 ? "th-active" : ""}`}>
-                            <Link to="#" onClick={() => toggleMenu(2)}>Destination</Link>
-                            <ul
+                        <li className={` th-item-has-children ${activeMenu === 2 ? "th-active" : ""}`}>
+                            <Link to="/garden" onClick={() => toggleMenu(2)}>Garden</Link>
+                            {/* <ul
                                 ref={(el) => (menuRefs.current[2] = el)}
                                 className="th-submenu"
                                 style={{ height: "0px", overflow: "hidden", transition: "height 0.3s ease-in-out" }}
                             >
                                 <li><Link to="/destination">Destination</Link></li>
                                 <li><Link to="/destination/1">Destination Details</Link></li>
-                            </ul>
+                            </ul> */}
                         </li>
 
                         {/* Service */}
-                        <li className={`menu-item-has-children th-item-has-children ${activeMenu === 3 ? "th-active" : ""}`}>
-                            <Link to="#" onClick={() => toggleMenu(3)}>Service</Link>
+                        <li className={` th-item-has-children ${activeMenu === 3 ? "th-active" : ""}`}>
+                            <Link to="/rooms" onClick={() => toggleMenu(3)}>Rooms</Link>
                             <ul
                                 ref={(el) => (menuRefs.current[3] = el)}
                                 className="th-submenu"
@@ -92,7 +92,7 @@ function MobileMenu({ isOpen, onClose }) {
                         </li>
 
                         {/* Activities */}
-                        <li className={`menu-item-has-children th-item-has-children ${activeMenu === 4 ? "th-active" : ""}`}>
+                        {/* <li className={`menu-item-has-children th-item-has-children ${activeMenu === 4 ? "th-active" : ""}`}>
                             <Link to="#" onClick={() => toggleMenu(4)}>Activities</Link>
                             <ul
                                 ref={(el) => (menuRefs.current[4] = el)}
@@ -102,11 +102,11 @@ function MobileMenu({ isOpen, onClose }) {
                                 <li><Link to="/activities">Activities</Link></li>
                                 <li><Link to="/activities-details">Activities Details</Link></li>
                             </ul>
-                        </li>
+                        </li> */}
 
                         {/* Pages */}
 
-                        <li className={`menu-item-has-children th-item-has-children ${activeMenu === 5 ? "th-active" : ""}`}>
+                        {/* <li className={`menu-item-has-children th-item-has-children ${activeMenu === 5 ? "th-active" : ""}`}>
                             <Link to="#" onClick={() => toggleMenu(5)}>Pages</Link>
                             <ul
                                 ref={(el) => (menuRefs.current[5] = el)}
@@ -129,12 +129,12 @@ function MobileMenu({ isOpen, onClose }) {
                                 <li><Link to="/price">Price Page</Link></li>
                                 <li><Link to="/error">Error Page</Link></li>
                             </ul>
-                        </li>
+                        </li> */}
 
 
                         {/* Blog */}
-                        <li className={`menu-item-has-children th-item-has-children ${activeMenu === 7 ? "th-active" : ""}`}>
-                            <Link to="#" onClick={() => toggleMenu(7)}>Blog</Link>
+                        <li className={` th-item-has-children ${activeMenu === 7 ? "th-active" : ""}`}>
+                            <Link to="/gallery" onClick={() => toggleMenu(7)}>Gallery</Link>
                             <ul
                                 ref={(el) => (menuRefs.current[7] = el)}
                                 className="th-submenu"

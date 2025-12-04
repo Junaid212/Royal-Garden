@@ -111,7 +111,7 @@ function CounterThree() {
                                     </button>
                                     <div className="contact-info">
                                         <p className="contact-info_link">
-                                            <Link to="tel:+0123456789">+012 345 6789</Link>
+                                            <Link to="tel:+919632526302">+91 96325 26302</Link>
                                         </p>
                                         <div className="contact-info_icon">
                                             <Link to="tel:+0123456789">

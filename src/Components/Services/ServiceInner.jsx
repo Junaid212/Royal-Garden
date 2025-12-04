@@ -55,35 +55,35 @@ const staggerContainer = {
 };
 
 export default function ServiceInner() {
-  const values = [
-    {
-      icon: Heart,
-      title: "Passion-Driven",
-      description: "Every project we undertake is fueled by genuine enthusiasm and dedication to excellence."
-    },
-    {
-      icon: Target,
-      title: "Purpose-Led",
-      description: "We believe in meaningful work that creates lasting impact for our clients and community."
-    },
-    {
-      icon: Users,
-      title: "People-First",
-      description: "Our success is built on relationships, collaboration, and putting humans at the center."
-    },
-    {
-      icon: Sparkles,
-      title: "Innovation-Focused",
-      description: "We constantly push boundaries to deliver creative solutions that stand out."
-    }
-  ];
+  // const values = [
+  //   {
+  //     icon: Heart,
+  //     title: "Passion-Driven",
+  //     description: "Every project we undertake is fueled by genuine enthusiasm and dedication to excellence."
+  //   },
+  //   {
+  //     icon: Target,
+  //     title: "Purpose-Led",
+  //     description: "We believe in meaningful work that creates lasting impact for our clients and community."
+  //   },
+  //   {
+  //     icon: Users,
+  //     title: "People-First",
+  //     description: "Our success is built on relationships, collaboration, and putting humans at the center."
+  //   },
+  //   {
+  //     icon: Sparkles,
+  //     title: "Innovation-Focused",
+  //     description: "We constantly push boundaries to deliver creative solutions that stand out."
+  //   }
+  // ];
 
-  const highlights = [
-    "Award-winning creative team",
-    "10+ years of industry experience",
-    "500+ successful projects delivered",
-    "Global clientele across 30 countries"
-  ];
+  // const highlights = [
+  //   "Award-winning creative team",
+  //   "10+ years of industry experience",
+  //   "500+ successful projects delivered",
+  //   "Global clientele across 30 countries"
+  // ];
 
   return (
     <div className="about-us-container">
@@ -435,6 +435,17 @@ export default function ServiceInner() {
   grid-template-columns: 1fr 1fr 1fr 1fr;
   gap: 24px;
 }
+  
+@media (max-width: 767px) {
+  .amenities-grid {
+  grid-template-columns: 1fr 1fr ;
+  gap: 20px;
+}
+  .amenity-description {
+  display:none;
+  }
+}
+
 
 .amenity-card {
   background-color: rgba(255, 255, 255, 0.1);

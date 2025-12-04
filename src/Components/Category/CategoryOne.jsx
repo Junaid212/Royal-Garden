@@ -9,12 +9,12 @@ const CategoryOne = () => {
   const swiperRef = useRef(null);
 
   const categories = [
-    { id: 1, title: "Cruises", imgSrc: "/assets/img/rg/20.webp" },
-    { id: 2, title: "Hiking", imgSrc: "/assets/img/rg/21.webp" },
-    { id: 3, title: "Airbirds", imgSrc: "/assets/img/rg/22.webp" },
-    { id: 4, title: "Wildlife", imgSrc: "/assets/img/rg/23.webp" },
-    { id: 5, title: "Walking", imgSrc: "/assets/img/rg/24.webp" },
-    { id: 6, title: "Cruises", imgSrc: "/assets/img/rg/25.webp" },
+    { id: 1, title: "Resort", imgSrc: "/assets/img/rg/20.webp" },
+    { id: 2, title: "Rooms", imgSrc: "/assets/img/rg/21.webp" },
+    { id: 3, title: "Swimming Pool", imgSrc: "/assets/img/rg/22.webp" },
+    { id: 4, title: "Resort", imgSrc: "/assets/img/rg/23.webp" },
+    { id: 5, title: "Bed Space", imgSrc: "/assets/img/rg/24.webp" },
+    { id: 6, title: "Guest House", imgSrc: "/assets/img/rg/25.webp" },
     // { id: 7, title: "Hiking", imgSrc: "/assets/img/category/category_1_2.jpg" },
     // { id: 8, title: "Airbirds", imgSrc: "/assets/img/category/category_1_3.jpg" },
     // { id: 9, title: "Wildlife", imgSrc: "/assets/img/category/category_1_4.jpg" },
@@ -113,9 +113,9 @@ const CategoryOne = () => {
                 <h3 className="box-title">
                   <Link to="/destination">{category.title}</Link>
                 </h3>
-                <Link className="line-btn" to="/destination">
+                {/* <Link className="line-btn" to="/destination">
                   See more
-                </Link>
+                </Link> */}
               </div>
             </SwiperSlide>
           ))}

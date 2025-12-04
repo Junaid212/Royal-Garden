@@ -1,3 +1,4 @@
+import { Armchair, GamepadDirectional, ListMusic } from 'lucide-react'
 import React from 'react'
 import { Link } from 'react-router-dom'
 
@@ -37,7 +38,7 @@ function AboutTwo() {
                             <div className="about-item-wrap">
                                 <div className="about-item style2">
                                     <div className="about-item_img">
-                                        <img src="/assets/img/icon/about_1_1.svg" alt="" />
+                                        <GamepadDirectional size={32} color="#0B3D2C" strokeWidth={1} />
                                     </div>
                                     <div className="about-item_centent">
                                         <h5 className="box-title">Indoor Games</h5>
@@ -48,7 +49,7 @@ function AboutTwo() {
                                 </div>
                                 <div className="about-item style2">
                                     <div className="about-item_img">
-                                        <img src="/assets/img/icon/about_1_2.svg" alt="" />
+                                        <ListMusic size={32} color="#0B3D2C" strokeWidth={1} />
                                     </div>
                                     <div className="about-item_centent">
                                         <h5 className="box-title">Relax with Music</h5>
@@ -59,7 +60,7 @@ function AboutTwo() {
                                 </div>
                                 <div className="about-item style2">
                                     <div className="about-item_img">
-                                        <img src="/assets/img/icon/about_1_3.svg" alt="" />
+                                        <Armchair size={32} color="#0B3D2C" strokeWidth={1} />
                                     </div>
                                     <div className="about-item_centent">
                                         <h5 className="box-title">Private Lounge</h5>

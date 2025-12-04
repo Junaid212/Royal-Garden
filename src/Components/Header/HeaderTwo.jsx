@@ -84,7 +84,7 @@ function HeaderTwo() {
                         <div className="container th-container">
                             <div className="row align-items-center justify-content-between">
                                 <div className="col-auto">
-                                    <div className="header-logo">
+                                    <div className="header-logo"style={{marginLeft:'-20px'}}>
                                         <Link to="/">
                                             <img src="/assets/img/rg/29.webp" alt="Royal Garden" />
                                         </Link>
@@ -217,7 +217,7 @@ function HeaderTwo() {
                                                 </ul>
                                             </li> */}
                                             <li className="">
-                                                <Link to="/service">Garden</Link>
+                                                <Link to="/garden">Garden</Link>
                                                 {/* <ul className="sub-menu">
                                                     <li>
                                                         <Link to="/service">Services</Link>
@@ -228,7 +228,7 @@ function HeaderTwo() {
                                                 </ul> */}
                                             </li>
                                             <li className="">
-                                                <Link to="/activities">Rooms</Link>
+                                                <Link to="/rooms">Rooms</Link>
                                                 {/* <ul className="sub-menu">
                                                     <li>
                                                         <Link to="/activities">activities</Link>

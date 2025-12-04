@@ -1,3 +1,4 @@
+import { CalendarHeart, Camera, PartyPopper } from 'lucide-react'
 import { Link } from 'react-router-dom'
 
 function AboutFour() {
@@ -43,7 +44,7 @@ function AboutFour() {
                      <div className="about-item-wrap">
                         <div className="about-item style2">
                            <div className="about-item_img">
-                              <img src="/assets/img/icon/about_1_1.svg" alt="" />
+                              <CalendarHeart color="#0B3D2C" strokeWidth={1} size={32}/>
                            </div>
                            <div className="about-item_centent">
                               <h5 className="box-title">Event Ready</h5>
@@ -55,7 +56,7 @@ function AboutFour() {
                         </div>
                         <div className="about-item style2">
                            <div className="about-item_img">
-                              <img src="/assets/img/icon/about_1_2.svg" alt="" />
+                              <PartyPopper color="#0B3D2C" strokeWidth={1} size={32}/>
                            </div>
                            <div className="about-item_centent">
                               <h5 className="box-title">Celebrate with Nature</h5>
@@ -66,7 +67,7 @@ function AboutFour() {
                         </div>
                         <div className="about-item style2">
                            <div className="about-item_img">
-                              <img src="/assets/img/icon/about_1_3.svg" alt="" />
+                              <Camera color="#0B3D2C" strokeWidth={1} size={32}/>
                            </div>
                            <div className="about-item_centent">
                               <h5 className="box-title">Perfect Photoshoots</h5>

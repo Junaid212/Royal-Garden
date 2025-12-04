@@ -6,7 +6,7 @@ function FooterTwo() {
         <footer className="footer-wrapper bg-title footer-layout2">
             <div className="widget-area">
                 <div className="container">
-                    <div className="newsletter-area">
+                    <div className="newsletter-area hide-mobile">
                         <div className="newsletter-top">
                             <div className="row gy-4 align-items-center">
                                 <div className="col-lg-5">
@@ -34,7 +34,7 @@ function FooterTwo() {
                         <div className="col-md-6 col-xl-3">
                             <div className="widget footer-widget">
                                 <div className="th-widget-about">
-                                    <div className="about-logo">
+                                    <div className="about-logo" style={{marginLeft:'-20px'}}>
                                         <Link to="/">
                                             <img src="/assets/img/rg/29.webp" alt="Tourm" />
                                         </Link>
@@ -43,26 +43,26 @@ function FooterTwo() {
                                         We welcome you to relax, celebrate, and enjoy unforgettable moments together.
                                     </p>
                                     <div className="th-social">
-                                        <Link to="https://www.facebook.com/">
+                                        <Link to="https://www.facebook.com/" target='blank'>
                                             <i className="fab fa-facebook-f" />
                                         </Link>
-                                        <Link to="https://www.twitter.com/">
+                                        <Link to="https://www.twitter.com/" target='blank'>
                                             <i className="fab fa-twitter" />
                                         </Link>
-                                        <Link to="https://www.linkedin.com/">
+                                        {/* <Link to="https://www.linkedin.com/" target='blank'>
                                             <i className="fab fa-linkedin-in" />
-                                        </Link>
-                                        <Link to="https://www.whatsapp.com/">
+                                        </Link> */}
+                                        <Link to="https://www.whatsapp.com/" target='blank'>
                                             <i className="fab fa-whatsapp" />
                                         </Link>
-                                        <Link to="https://instagram.com/">
+                                        <Link to="https://www.instagram.com/royalgarden_ullal/?hl=en" target='blank'>
                                             <i className="fab fa-instagram" />
                                         </Link>
                                     </div>
                                 </div>
                             </div>
                         </div>
-                        <div className="col-md-6 col-xl-auto">
+                        <div className="col-md-6 col-xl-auto hide-mobile">
                             <div className="widget widget_nav_menu footer-widget">
                                 <h3 className="widget_title">Quick Links</h3>
                                 <div className="menu-all-pages-container">
@@ -74,10 +74,10 @@ function FooterTwo() {
                                             <Link to="/about">About us</Link>
                                         </li>
                                         <li>
-                                            <Link to="/service">Garden</Link>
+                                            <Link to="/garden">Garden</Link>
                                         </li>
                                         <li>
-                                            <Link to="/contact">Rooms</Link>
+                                            <Link to="/rooms">Rooms</Link>
                                         </li>
                                         <li>
                                             <Link to="/contact">Contact Us</Link>
@@ -113,12 +113,12 @@ function FooterTwo() {
                                         </div>
                                         <div className="details">
                                             <p>
-                                                <Link
+                                                {/* <Link
                                                     to="/mailto:mailinfo00@tourm.com"
                                                     className="info-box_link"
                                                 >
                                                     mailinfo00@tourm.com
-                                                </Link>
+                                                </Link> */}
                                             </p>
                                             <p>
                                                 <Link
@@ -141,18 +141,18 @@ function FooterTwo() {
                                 </div>
                             </div>
                         </div>
-                        <div className="col-md-6 col-xl-auto">
+                        <div className="col-md-6 col-xl-auto hide-mobile">
                             <div className="widget footer-widget">
                                 <h3 className="widget_title">Instagram Post</h3>
                                 <div className="sidebar-gallery">
                                     <div className="gallery-thumb">
                                         <img
-                                            src="/assets/img/widget/gallery_1_1.jpg"
+                                            src="/assets/img/rg/66.webp"
                                             alt="Gallery"
                                         />
                                         <Link
                                             target="_blank"
-                                            to="https://www.instagram.com/"
+                                            to="https://www.instagram.com/royalgarden_ullal/?hl=en"
                                             className="gallery-btn"
                                         >
                                             <i className="fab fa-instagram" />
@@ -160,12 +160,12 @@ function FooterTwo() {
                                     </div>
                                     <div className="gallery-thumb">
                                         <img
-                                            src="/assets/img/widget/gallery_1_2.jpg"
+                                            src="/assets/img/rg/67.webp"
                                             alt="Gallery"
                                         />
                                         <Link
                                             target="_blank"
-                                            to="https://www.instagram.com/"
+                                            to="https://www.instagram.com/royalgarden_ullal/?hl=en"
                                             className="gallery-btn"
                                         >
                                             <i className="fab fa-instagram" />
@@ -173,12 +173,12 @@ function FooterTwo() {
                                     </div>
                                     <div className="gallery-thumb">
                                         <img
-                                            src="/assets/img/widget/gallery_1_3.jpg"
+                                            src="/assets/img/rg/68.webp"
                                             alt="Gallery"
                                         />
                                         <Link
                                             target="_blank"
-                                            to="https://www.instagram.com/"
+                                            to="https://www.instagram.com/royalgarden_ullal/?hl=en"
                                             className="gallery-btn"
                                         >
                                             <i className="fab fa-instagram" />
@@ -186,12 +186,12 @@ function FooterTwo() {
                                     </div>
                                     <div className="gallery-thumb">
                                         <img
-                                            src="/assets/img/widget/gallery_1_4.jpg"
+                                            src="/assets/img/rg/69.webp"
                                             alt="Gallery"
                                         />
                                         <Link
                                             target="_blank"
-                                            to="https://www.instagram.com/"
+                                            to="https://www.instagram.com/royalgarden_ullal/?hl=en"
                                             className="gallery-btn"
                                         >
                                             <i className="fab fa-instagram" />
@@ -199,12 +199,12 @@ function FooterTwo() {
                                     </div>
                                     <div className="gallery-thumb">
                                         <img
-                                            src="/assets/img/widget/gallery_1_5.jpg"
+                                            src="/assets/img/rg/70.webp"
                                             alt="Gallery"
                                         />
                                         <Link
                                             target="_blank"
-                                            to="https://www.instagram.com/"
+                                            to="https://www.instagram.com/royalgarden_ullal/?hl=en"
                                             className="gallery-btn"
                                         >
                                             <i className="fab fa-instagram" />
@@ -212,12 +212,12 @@ function FooterTwo() {
                                     </div>
                                     <div className="gallery-thumb">
                                         <img
-                                            src="/assets/img/widget/gallery_1_6.jpg"
+                                            src="/assets/img/rg/71.webp"
                                             alt="Gallery"
                                         />
                                         <Link
                                             target="_blank"
-                                            to="https://www.instagram.com/"
+                                            to="https://www.instagram.com/royalgarden_ullal/?hl=en"
                                             className="gallery-btn"
                                         >
                                             <i className="fab fa-instagram" />
@@ -234,8 +234,7 @@ function FooterTwo() {
                     <div className="row justify-content-between align-items-center">
                         <div className="col-md-6">
                             <p className="copyright-text">
-                                Copyright 2025 <Link to="/">Tourm</Link>. All Rights
-                                Reserved.
+                                Copyright 2025. Designed By <Link to="https://brightmedia.tech/" target='blank'>Bright Media</Link>
                             </p>
                         </div>
                         {/* <div className="col-md-6 text-end d-none d-md-block">

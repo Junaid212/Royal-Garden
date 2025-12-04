@@ -15,6 +15,7 @@ import TourGuideThree from '../Components/Guide/TourGuideThree'
 import HeaderThree from '../Components/Header/HeaderThree'
 import AboutOne from '../Components/About/AboutOne'
 import HeaderTwo from '../Components/Header/HeaderTwo'
+import FooterTwo from '../Components/Footer/FooterTwo'
 
 function About() {
     return (
@@ -33,7 +34,7 @@ function About() {
             {/* <TestimonialOne /> */}
             {/* <BrandOne/> */}
             {/* <GalleryFive /> */}
-            <FooterFour />
+            <FooterTwo />
             <ScrollToTop />
         </>
     )

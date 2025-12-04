@@ -10,10 +10,10 @@ const guides = [
   { id: 2, name: "Jane Cooper", image: "team_1_2.jpg" },
   { id: 3, name: "Guy Hawkins", image: "team_1_3.jpg" },
   { id: 4, name: "Jenny Wilson", image: "team_1_4.jpg" },
-  { id: 5, name: "Jacob Jones", image: "team_1_1.jpg" },
-  { id: 6, name: "Jane Cooper", image: "team_1_2.jpg" },
-  { id: 7, name: "Guy Hawkins", image: "team_1_3.jpg" },
-  { id: 8, name: "Jenny Wilson", image: "team_1_4.jpg" },
+  // { id: 5, name: "Jacob Jones", image: "team_1_1.jpg" },
+  // { id: 6, name: "Jane Cooper", image: "team_1_2.jpg" },
+  // { id: 7, name: "Guy Hawkins", image: "team_1_3.jpg" },
+  // { id: 8, name: "Jenny Wilson", image: "team_1_4.jpg" },
 ];
 
 function TourGuide() {
@@ -31,7 +31,7 @@ function TourGuide() {
   return (
     <section
       className="bg-smoke space overflow-hidden"
-      style={{ backgroundImage: "url(/assets/img/bg/team_bg_1.png)" }}
+      style={{ backgroundImage: "url(/assets/img/rg/75.webp)" }}
     >
       <div className="container z-index-common">
         <div className="title-area text-center">
@@ -67,13 +67,13 @@ function TourGuide() {
                         <Link to="/tour-guide/1">{guide.name}</Link>
                       </h3>
                       <span className="team-desig">Tourist Guide</span>
-                      <div className="th-social">
+                      {/* <div className="th-social">
                         {["facebook", "twitter", "instagram", "linkedin"].map((platform) => (
                           <Link key={platform} target="_blank" rel="noopener noreferrer" to={`https://${platform}.com/`}>
                             <i className={`fab fa-${platform}`} />
                           </Link>
                         ))}
-                      </div>
+                      </div> */}
                     </div>
                   </div>
                 </div>

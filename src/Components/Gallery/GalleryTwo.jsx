@@ -60,7 +60,7 @@ function GalleryTwo() {
                                     onClick={(e) => openModal('/assets/img/rg/12.webp', e)}
                                 >
                                     <div className="icon-btn">
-                                        <i className="fal fa-magnifying-glass-plus" />
+                                        {/* <i className="fal fa-magnifying-glass-plus" /> */}
                                     </div>
                                     <img
                                         src="/assets/img/rg/12.webp"
@@ -80,7 +80,7 @@ function GalleryTwo() {
                                     onClick={(e) => openModal('/assets/img/rg/13.webp', e)}
                                 >
                                     <div className="icon-btn">
-                                        <i className="fal fa-magnifying-glass-plus" />
+                                        {/* <i className="fal fa-magnifying-glass-plus" /> */}
                                     </div>
                                     <img
                                         src="/assets/img/rg/13.webp"
@@ -98,7 +98,7 @@ function GalleryTwo() {
                                     onClick={(e) => openModal('/assets/img/rg/14.webp', e)}
                                 >
                                     <div className="icon-btn">
-                                        <i className="fal fa-magnifying-glass-plus" />
+                                        {/* <i className="fal fa-magnifying-glass-plus" /> */}
                                     </div>
                                     <img
                                         src="/assets/img/rg/14.webp"
@@ -118,7 +118,7 @@ function GalleryTwo() {
                                     onClick={(e) => openModal('/assets/img/gallery/gallery_2_4.jpg', e)}
                                 >
                                     <div className="icon-btn">
-                                        <i className="fal fa-magnifying-glass-plus" />
+                                        {/* <i className="fal fa-magnifying-glass-plus" /> */}
                                     </div>
                                     <img
                                         src="/assets/img/rg/15.webp"
@@ -136,7 +136,7 @@ function GalleryTwo() {
                                     onClick={(e) => openModal('/assets/img/gallery/gallery_2_5.jpg', e)}
                                 >
                                     <div className="icon-btn">
-                                        <i className="fal fa-magnifying-glass-plus" />
+                                        {/* <i className="fal fa-magnifying-glass-plus" /> */}
                                     </div>
                                     <img
                                         src="/assets/img/rg/16.webp"
@@ -156,7 +156,7 @@ function GalleryTwo() {
                                     onClick={(e) => openModal('/assets/img/gallery/gallery_2_6.jpg', e)}
                                 >
                                     <div className="icon-btn">
-                                        <i className="fal fa-magnifying-glass-plus" />
+                                        {/* <i className="fal fa-magnifying-glass-plus" /> */}
                                     </div>
                                     <img
                                         src="/assets/img/rg/17.webp"
