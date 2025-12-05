@@ -7224,7 +7224,7 @@ ol.wp-block-rss {
 
 .footer-widget.widget_meta a:hover, .footer-widget.widget_pages a:hover, .footer-widget.widget_archive a:hover, .footer-widget.widget_categories a:hover, .footer-widget.widget_nav_menu a:hover {
   background-color: transparent;
-  color: var(--theme-color);
+  color: #C89C25;
   box-shadow: none;
 }
 
@@ -9065,7 +9065,7 @@ heding animation  end
 }
 
 .info-box_text a:hover {
-  color: var(--theme-color);
+  color: #C89C25;
 }
 
 .info-box_text:not(:last-child) {
@@ -9115,6 +9115,7 @@ heding animation  end
 .footer-layout2 {
   --body-color: #E9F6F9;
 }
+
 
 .footer-layout2 .newsletter-top {
   border-bottom: 1px solid rgba(233, 246, 249, 0.2);
@@ -11367,6 +11368,10 @@ ul.comment-list:has(> .th-comment-item ~ .th-comment-item):first-child > .th-pos
     font-size: 44px;
     line-height: 54px;
   }
+  .hero-2 .hero2-overlay {
+  height: 200px !important;
+  /* background-color: red !important; */
+}
 }
 
 /* Extra small devices */

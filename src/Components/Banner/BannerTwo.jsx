@@ -183,7 +183,7 @@ function BannerTwo() {
                 <h3 className="box-title">Garden</h3>
                 <h4 className="hero-card_price"><span className="currency">Enjoy open green spaces perfect for celebrations</span></h4>
                 {/* <span className="d-block"><i className="fa-light fa-clock" />7 Days</span> */}
-                <Link to="/destination/1" className="th-btn style2">Book Now</Link>
+                <Link to="/garden" className="th-btn style2">Book Now</Link>
               </div>
             </div>
           </div>
@@ -198,7 +198,7 @@ function BannerTwo() {
                 <h3 className="box-title">Rooms</h3>
                 <h4 className="hero-card_price"><span className="currency">Comfortable Rooms Made For Relaxing</span></h4>
                 {/* <span className="d-block"><i className="fa-light fa-clock" />6 Days</span> */}
-                <Link to="/destination/1" className="th-btn style2">Book Now</Link>
+                <Link to="/rooms" className="th-btn style2">Book Now</Link>
               </div>
             </div>
           </div>

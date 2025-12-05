@@ -72,7 +72,7 @@ export default function RunningText() {
     line: {
       width: '48px',
       height: '1px',
-      backgroundColor: '#047857'
+      backgroundColor: '#0B3D2C'
     },
     dateText: {
       fontSize: '16px',
@@ -87,7 +87,7 @@ export default function RunningText() {
     marqueePrimary: {
       overflow: 'hidden',
       padding: '20px 0',
-      backgroundColor: '#047857',
+      backgroundColor: '#0B3D2C',
       color: 'white'
     },
     marqueeSecondary: {

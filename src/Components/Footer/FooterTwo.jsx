@@ -23,7 +23,7 @@ function FooterTwo() {
                                             required=""
                                         />
                                         <button type="submit" className="th-btn style1">
-                                            Subscribe Now <img src="/assets/img/icon/plane2.svg" alt="" />
+                                            Message Now <img src="/assets/img/icon/plane2.svg" alt="" />
                                         </button>
                                     </form>
                                 </div>

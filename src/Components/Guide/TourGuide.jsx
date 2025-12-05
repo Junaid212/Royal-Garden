@@ -31,7 +31,7 @@ function TourGuide() {
   return (
     <section
       className=" space overflow-hidden"
-      style={{ background:'none'}}
+      style={{ backgroundImage:'url(/assets/img/rg/73.webp)'}}
     >
       <div className="container z-index-common">
         <div className="title-area text-center">
