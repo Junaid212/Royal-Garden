@@ -14,7 +14,13 @@ function BookATour() {
     return (
         <div
             className="space-extra2-top space-extra2-bottom"
-            style={{ background: "url(/assets/img/rg/44.webp)", backgroundRepeat: "no-repeat", backgroundSize: "cover" }}
+            style={{
+  background: "linear-gradient(to bottom right, rgba(13, 40, 24, 0.9), rgba(26, 74, 58, 0.85), rgba(13, 40, 24, 0.9)), url(/assets/img/rg/44.webp)",
+  backgroundRepeat: "no-repeat",
+  backgroundSize: "cover",
+  backgroundPosition: "center"
+}}
+
         >
             <div className="container">
                 <div className="row flex-row-reverse justify-content-center align-items-center">

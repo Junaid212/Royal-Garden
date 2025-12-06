@@ -78,9 +78,16 @@ const CategoryOne = () => {
     >
       <div className="container th-container" style={{background:'none',}}>
         <div className="title-area text-center">
-          <span className="sub-title">Wonderful Place For You</span>
+          <span className="sub-title" id="subtext1">Wonderful Place For You</span>
           <h2 className="sec-title">Garden & Suites</h2>
         </div>
+        <style>{`
+                            @media(max-width:768px){
+                            #subtext1{
+                            margin-top:-130px !important;
+                            }
+                            }
+                            `}</style>
 
         <Swiper
           ref={swiperRef}

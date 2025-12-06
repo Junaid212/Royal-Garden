@@ -26,11 +26,20 @@ function GalleryTwo() {
             }}
             data-bg-src=""
         >
+           
+            
             <div className="container">
                 <div className="row justify-content-lg-between justify-content-center align-items-center">
                     <div className="col-lg-7">
                         <div className="title-area text-center text-lg-start mb-20 pe-xl-5 me-xl-5">
-                            <span className="sub-title">Welcome to Royal Garden</span>
+                            <span className="sub-title" style={{marginTop:'-100px'}}>Welcome to Royal Garden</span>
+                            <style>{`
+                            @media(max-width:768px){
+                            .sub-title{
+                            margin-top:-200px !important;
+                            }
+                            }
+                            `}</style>
                             <h2 className="sec-title">
                                 A Beautiful Place Designed Thoughtfully For Unforgettable Experiences
                             </h2>
@@ -71,8 +80,8 @@ function GalleryTwo() {
                             </div>
                         </div>
                     </div>
-                    <div className="col-lg-3 gallery-box_wrapp">
-                        <div className="gallery-box">
+                    <div className="col-lg-3 gallery-box_wrapp ">
+                        <div className="gallery-box hide-mobile">
                             <div className="gallery-img global-img">
                                 <Link
                                     to="/assets/img/rg/13.webp"
@@ -90,7 +99,7 @@ function GalleryTwo() {
                                 </Link>
                             </div>
                         </div>
-                        <div className="gallery-box">
+                        <div className="gallery-box " id='image'>
                             <div className="gallery-img global-img">
                                 <Link
                                     to="/assets/img/rg/14.webp"
@@ -108,8 +117,22 @@ function GalleryTwo() {
                                 </Link>
                             </div>
                         </div>
+                        <style>{`
+                       @media (max-width: 768px) {   /* apply only on mobile & small screens */
+  #image {
+    margin-top: -110px;
+    width: 90%;
+    margin-left: 20px;
+  }
+
+  #image img {
+    border: 5px solid white;
+  }
+}
+
+                        `}</style>
                     </div>
-                    <div className="col-lg-3 gallery-box_wrapp">
+                    <div className="col-lg-3 gallery-box_wrapp hide-mobile">
                         <div className="gallery-box">
                             <div className="gallery-img global-img">
                                 <Link
@@ -128,7 +151,7 @@ function GalleryTwo() {
                                 </Link>
                             </div>
                         </div>
-                        <div className="gallery-box">
+                        <div className="gallery-box hide-mobile">
                             <div className="gallery-img global-img">
                                 <Link
                                     to="/assets/img/rg/16.webp"
@@ -147,7 +170,7 @@ function GalleryTwo() {
                             </div>
                         </div>
                     </div>
-                    <div className="col-lg-3 gallery-box_wrapp">
+                    <div className="col-lg-3 gallery-box_wrapp hide-mobile">
                         <div className="gallery-box">
                             <div className="gallery-img global-img">
                                 <Link

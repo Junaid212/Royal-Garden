@@ -11,7 +11,7 @@ function AboutTwo() {
             <div className="container shape-mockup-wrap">
                 <div className="row">
                     <div className="col-xl-7">
-                        <div className="img-box3">
+                        <div className="img-box3 " id='img-mobile'>
                             <div className="img1">
                                 <img src="/assets/img/rg/27.webp" alt="About" />
                             </div>
@@ -23,14 +23,32 @@ function AboutTwo() {
                             </div>
                         </div>
                     </div>
+                    <style>{`
+                            @media(max-width:768px){
+                            #img-mobile .img1{
+                            margin-right:60px !important;
+                            }
+                            #img-mobile .img2{
+                            margin-left:60px !important;
+                            margin-top:-190px !important;
+                            }
+                            }
+                            `}</style>
                     <div className="col-xl-5">
                         <div className="ps-xl-4">
                             <div className="title-area mb-20 pe-xxl-5 me-xxl-5">
-                                <span className="sub-title style1 ">Explore Our Clubhouse</span>
+                                <span className="sub-title style1 " id='subtext'>Explore Our Clubhouse</span>
                                 <h2 className="sec-title mb-20 pe-xl-5 me-xl-5 heading">
                                     Fun, Comfort and Entertainment
                                 </h2>
                             </div>
+                            <style>{`
+                            @media(max-width:768px){
+                            #subtext{
+                            margin-top:0px !important;
+                            }
+                            }
+                            `}</style>
                             <p className="sec-text mb-30">
                                 Our clubhouse offers modern amenities, indoor games, and relaxing spaces.
                                  Enjoy music, socializing, and leisure activities in a lively yet peaceful environment.

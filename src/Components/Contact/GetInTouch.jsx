@@ -58,6 +58,55 @@ function GetInTouch() {
                     </div>
                 </div>
             </div>
+            <style>{`
+            .about-contact-grid {
+    background: #0B3D2C; /* Yellow background */
+    
+    color: #fff; /* Text to white */
+}
+
+/* icon styling */
+.about-contact-grid .about-contact-icon {
+    background: #BB8E12; /* WHITE ICON BG */
+   
+}
+
+.about-contact-grid .about-contact-icon img {
+    filter: brightness(0) invert(1); /* Makes icon white */
+    width: 30px;
+}
+
+/* Text Colors */
+.about-contact-grid .about-contact-details .box-title,
+.about-contact-details-text,
+.about-contact-details-text a {
+    color: #fff !important;
+}
+
+/* ------------ HOVER EFFECT ------------ */
+.about-contact-grid:hover {
+    background: #fff; /* reverse bg */
+    color: #0B3D2C;   /* text yellow on hover */
+    transform: translateY(-4px);
+}
+
+/* text + icon color reversal */
+.about-contact-grid:hover .about-contact-icon {
+    background: #0B3D2C; /* yellow icon bg */
+}
+
+.about-contact-grid:hover .about-contact-icon img,
+.about-contact-grid:hover .about-contact-details .box-title,
+.about-contact-grid:hover .about-contact-details-text,
+.about-contact-grid:hover .about-contact-details-text a {
+    color: #0B3D2C !important;
+    filter: brightness(1) invert(0); /* reverse icon to yellow */
+}
+
+            
+
+            
+            `}</style>
         </div>
 
     )

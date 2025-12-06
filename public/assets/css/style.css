@@ -9455,7 +9455,7 @@ heding animation  end
 /* Extra small devices */
 @media (max-width: 575px) {
   .breadcumb-wrapper {
-    padding: 130px 0;
+    padding: 50px 0;
   }
   .breadcumb-title {
     font-size: 44px;
@@ -11760,6 +11760,8 @@ ul.comment-list:has(> .th-comment-item ~ .th-comment-item):first-child > .th-pos
   }
 }
 
+
+
 .hero-style2 .hero-desc {
   font-size: 18px;
   color: var(--white-color);
@@ -11928,8 +11930,12 @@ ul.comment-list:has(> .th-comment-item ~ .th-comment-item):first-child > .th-pos
   .hero-style2 .hero-title {
     font-size: 54px;
     line-height: 64px;
+    margin-top:200px;
+    /* margin-bottom: 50px; */
+    
   }
 }
+
 
 /* Extra small devices */
 @media (max-width: 375px) {
@@ -18510,7 +18516,7 @@ span.select2-selection.select2-selection--single:focus {
 
 @media (max-width: 480px) {
   .img-box1 .img1 {
-    max-width: 100%;
+    max-width: 45%;
   }
 }
 
@@ -18543,7 +18549,7 @@ span.select2-selection.select2-selection--single:focus {
 
 @media (max-width: 1199px) {
   .img-box1 .img2 {
-    right: 40%;
+    right: 50%;
   }
 }
 
@@ -18555,13 +18561,13 @@ span.select2-selection.select2-selection--single:focus {
 
 @media (max-width: 767px) {
   .img-box1 .img2 {
-    right: 0%;
+    right: 6%;
   }
 }
 
 @media (max-width: 480px) {
   .img-box1 .img2 {
-    display: none;
+    left: 50%;
   }
 }
 
@@ -18606,13 +18612,14 @@ span.select2-selection.select2-selection--single:focus {
 
 @media (max-width: 767px) {
   .img-box1 .img3 {
-    right: 0%;
+    right: 6%;
+    bottom:-10px;
   }
 }
 
 @media (max-width: 480px) {
   .img-box1 .img3 {
-    display: none;
+    left: 50%;
   }
 }
 

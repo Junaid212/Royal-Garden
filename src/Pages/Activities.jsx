@@ -9,6 +9,7 @@ import ServiceInner from '../Components/Services/ServiceInner'
 import PopularDestination from '../Components/Destination/PopularDestination'
 import DestinationTwo from '../Components/Destination/DestinationTwo'
 import FooterTwo from '../Components/Footer/FooterTwo'
+import GalleryThree from '../Components/Gallery/GalleryThree'
 
 function Activities() {
     return (
@@ -20,6 +21,7 @@ function Activities() {
             {/* <PopularDestination /> */}
             <DestinationTwo />
             <ServiceInner />
+            <GalleryThree />
             {/* <ActivitiesInner /> */}
             <FooterTwo />
             <ScrollToTop />

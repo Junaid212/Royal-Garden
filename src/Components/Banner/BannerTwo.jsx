@@ -34,6 +34,8 @@ function BannerTwo() {
       }
     }
   };
+
+  const isMobile = typeof window !== 'undefined' && window.innerWidth < 768;
   const destinationRef = useRef(null);
   const handleScroll = (e) => {
     e.preventDefault();
@@ -69,15 +71,59 @@ function BannerTwo() {
       >
         <SwiperSlide>
           <div className="hero-inner">
-            <div className="th-hero-bg" style={{ backgroundImage: 'url(/assets/img/rg/8.webp)', backgroundRepeat: "no-repeat", backgroundSize: "cover" }} />
+            <div className="th-hero-bg" style={{
+        backgroundImage: `url(${isMobile ? '/assets/img/rg/80.webp' : '/assets/img/rg/10.webp'})`,
+        backgroundRepeat: "no-repeat",
+        // backgroundSize: "cover",
+          backgroundSize: isMobile ? "cover" : "cover", // Mobile image fits fully
+    backgroundPosition: "center",
+    height: isMobile ? "530px" : "100%",  // mobile height vs desktop height
+    // borderRadius:isMobile?"5px 0 0 5px":"20px",
+    width: "100%",
+      }} />
+            <div className="container">
+              <div className="hero-style2">
+                <h1 className="hero-title" data-ani="slideinup" data-ani-delay="0.4s" >
+                  Rooms <span className="hero-text">Feel Good Staying With Us</span>
+                </h1>
+                <p className="hero-desc" data-ani="slideinup" data-ani-delay="0.5s">
+  {isMobile
+    ? "Comfortable rooms with privacy, soft beds, and a homelike stay."
+    : "Perfect for families, couples, and travelers, our rooms offer privacy, comfort, soft beds, and service that feels like home."
+  }
+</p>
+
+                <div className="btn-group" data-ani="slideinup" data-ani-delay="0.6s">
+                  {/* <Link to="/tour" className="th-btn white-btn th-icon">Explore Now</Link> */}
+                </div>
+              </div>
+            </div>
+          </div>
+        </SwiperSlide>
+        <SwiperSlide >
+          <div className="hero-inner">
+            <div className="th-hero-bg" style={{
+        backgroundImage: `url(${isMobile ? '/assets/img/rg/81.webp' : '/assets/img/rg/8.webp'})`,
+        backgroundRepeat: "no-repeat",
+        // backgroundSize: "cover",
+          backgroundSize: isMobile ? "cover" : "cover", // Mobile image fits fully
+    backgroundPosition: "center",
+    height: isMobile ? "530px" : "100%",  // mobile height vs desktop height
+    // borderRadius:isMobile?"5px 0 0 5px":"20px",
+    width: "100%",
+      }} />
             <div className="container">
               <div className="hero-style2">
                 <h1 className="hero-title" data-ani="slideinup" data-ani-delay="0.4s">
                   Garden <span className="hero-text">A Peaceful Garden for Everyone</span>
                 </h1>
                 <p className="hero-desc" data-ani="slideinup" data-ani-delay="0.5s">
-                  Enjoy open green spaces perfect for celebrations, family time, and relaxing weekends filled with fresh air and sunshine today.
-                </p>
+  {isMobile
+    ? "Green spaces for celebrations, family time & weekend relaxation."
+    : "Enjoy open green spaces perfect for celebrations, family time, and relaxing weekends filled with fresh air and sunshine today."
+  }
+</p>
+
                 <div className="btn-group" data-ani="slideinup" data-ani-delay="0.6s">
                   {/* <Link to="/destination" className="th-btn white-btn th-icon">Explore Now</Link> */}
                 </div>
@@ -85,17 +131,30 @@ function BannerTwo() {
             </div>
           </div>
         </SwiperSlide>
-        <SwiperSlide>
+        <SwiperSlide >
           <div className="hero-inner">
-            <div className="th-hero-bg" style={{ backgroundImage: 'url(/assets/img/rg/34.webp)', backgroundRepeat: "no-repeat", backgroundSize: "cover" }} />
+            <div className="th-hero-bg" style={{
+        backgroundImage: `url(${isMobile ? '/assets/img/rg/83.webp' : '/assets/img/rg/34.webp'})`,
+        backgroundRepeat: "no-repeat",
+        // backgroundSize: "cover",
+          backgroundSize: isMobile ? "cover" : "cover", // Mobile image fits fully
+    backgroundPosition: "center",
+    height: isMobile ? "530px" : "100%",  // mobile height vs desktop height
+    // borderRadius:isMobile?"5px 0 0 5px":"20px",
+    width: "100%",
+      }} />
             <div className="container">
               <div className="hero-style2">
                 <h1 className="hero-title" data-ani="slideinup" data-ani-delay="0.4s">
                   Rooms <span className="hero-text">Comfortable Rooms For Relaxing</span>
                 </h1>
                 <p className="hero-desc" data-ani="slideinup" data-ani-delay="0.5s">
-                  Stay in clean, cozy rooms designed to give sleep, fresh mornings, and everything needed for a calm happy stay.
-                </p>
+  {isMobile
+    ? "Clean, cozy rooms for restful sleep and fresh, happy mornings."
+    : "Stay in clean, cozy rooms designed to give sleep, fresh mornings, and everything needed for a calm happy stay."
+  }
+</p>
+
                 <div className="btn-group" data-ani="slideinup" data-ani-delay="0.6s">
                   {/* <Link to="/destination" className="th-btn white-btn th-icon">Explore Now</Link> */}
                 </div>
@@ -103,17 +162,29 @@ function BannerTwo() {
             </div>
           </div>
         </SwiperSlide>
-        <SwiperSlide>
+        <SwiperSlide >
           <div className="hero-inner">
-            <div className="th-hero-bg" style={{ backgroundImage: 'url(/assets/img/rg/65.webp)', backgroundRepeat: "no-repeat", backgroundSize: "cover" }} />
+            <div className="th-hero-bg" style={{
+        backgroundImage: `url(${isMobile ? '/assets/img/rg/82.webp' : '/assets/img/rg/65.webp'})`,
+        backgroundRepeat: "no-repeat",
+        // backgroundSize: "cover",
+          backgroundSize: isMobile ? "cover" : "cover", // Mobile image fits fully
+    backgroundPosition: "center",
+    height: isMobile ? "530px" : "100%",  // mobile height vs desktop height
+    // borderRadius:isMobile?"5px 0 0 5px":"20px",
+    width: "100%",
+      }} />
             <div className="container">
               <div className="hero-style2">
                 <h1 className="hero-title" data-ani="slideinup" data-ani-delay="0.4s">
                   Garden <span className="hero-text">Celebrate Special Days Outdoors </span>
                 </h1>
                 <p className="hero-desc" data-ani="slideinup" data-ani-delay="0.5s">
-                  Our garden is a great place for weddings, parties, photoshoots, or peaceful evening walks that everyone will love always.
-                </p>
+  {isMobile
+    ? "Perfect for weddings, parties, photoshoots & peaceful evening walks."
+    : "Our garden is a great place for weddings, parties, photoshoots, or peaceful evening walks that everyone will love always."
+  }
+</p>
                 <div className="btn-group" data-ani="slideinup" data-ani-delay="0.6s">
                   {/* <Link to="/tour" className="th-btn white-btn th-icon">Explore Now</Link> */}
                 </div>
@@ -121,24 +192,7 @@ function BannerTwo() {
             </div>
           </div>
         </SwiperSlide>
-        <SwiperSlide>
-          <div className="hero-inner">
-            <div className="th-hero-bg" style={{ backgroundImage: 'url(/assets/img/rg/10.webp)', backgroundRepeat: "no-repeat", backgroundSize: "cover" }} />
-            <div className="container">
-              <div className="hero-style2">
-                <h1 className="hero-title" data-ani="slideinup" data-ani-delay="0.4s">
-                  Rooms <span className="hero-text">Feel Good Staying With Us</span>
-                </h1>
-                <p className="hero-desc" data-ani="slideinup" data-ani-delay="0.5s">
-                  Perfect for families, couples, and travelers, our rooms offer privacy, comfort, soft beds, and service that feels like home.
-                </p>
-                <div className="btn-group" data-ani="slideinup" data-ani-delay="0.6s">
-                  {/* <Link to="/tour" className="th-btn white-btn th-icon">Explore Now</Link> */}
-                </div>
-              </div>
-            </div>
-          </div>
-        </SwiperSlide>
+        
       </Swiper>
       {/* Custom Navigation */}
       {/* <div className="th-swiper-custom">
@@ -228,6 +282,7 @@ function BannerTwo() {
           Scroll Down
         </Link>
       </div> */}
+      
     </div>
   );
 }

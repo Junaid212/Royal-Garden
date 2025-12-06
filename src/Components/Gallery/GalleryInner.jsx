@@ -66,16 +66,16 @@ function GalleryInner() {
                     left: 0;
                     right: 0;
                     bottom: 0;
-                    background: rgba(0, 0, 0, 0.3);
+                    // background: rgba(0, 0, 0, 0.3);
                     opacity: 0;
-                    transition: opacity 0.3s ease;
+                    // transition: opacity 0.3s ease;
                     display: flex;
                     align-items: center;
                     justify-content: center;
                 }
                 
                 .gallery-box:hover .gallery-overlay {
-                    opacity: 1;
+                    // opacity: 1;
                 }
                 
                 .icon-btn {
@@ -96,7 +96,7 @@ function GalleryInner() {
                 
                 .gallery-box:hover .icon-btn {
                     transform: scale(1);
-                    opacity: 1;
+                    // opacity: 1;
                 }
                 
                 .icon-btn:hover {
@@ -120,7 +120,7 @@ function GalleryInner() {
                 
                 @media (max-width: 768px) {
                     .gallery-box {
-                        height: 200px;
+                        height: 350px !important;
                     }
                 }
                 

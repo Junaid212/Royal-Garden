@@ -20,9 +20,9 @@ function GalleryThree() {
     return (
         <div className="overflow-hidden space-bottom">
             <div className="container">
-                <div className="title-area text-center">
-                    <span className="sub-title">Make Your Tour More Pleasure</span>
-                    <h2 className="sec-title">Recent Gallery</h2>
+                <div className="title-area text-center"><br/>
+                    {/* <span className="sub-title"></span> */}
+                    <h2 className="sec-title">Rooms</h2>
                 </div>
                 <div className="row gy-24 gx-24 justify-content-center">
                     <div className="col-lg-3">

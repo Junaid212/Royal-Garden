@@ -34,7 +34,7 @@ function CounterThree() {
             <div className="container">
                 <div className="row">
                     <div className="col-xl-5 col-xxl-6">
-                        <div className="pe-xxl-5 me-xxl-5">
+                        <div className="pe-xxl-5 me-xxl-5 hide-mobile">
                             <div className="title-area">
                                 <span className="sub-title text-white">Book Your Stay</span>
                                 <h2 className="sec-title text-white">Plan with Ease</h2>
@@ -44,7 +44,7 @@ function CounterThree() {
                                       without any stress that give you moments filled with joy.
                                 </p>
                             </div>
-                            <div className="contact-form-area2">
+                            <div className="contact-form-area2 ">
                                 <form className="contact-form2" onSubmit={handleSubmit}>
                                     <div className="row">
                                         <div className="form-group col-12">
@@ -123,8 +123,8 @@ function CounterThree() {
                             </div>
                         </div>
                     </div>
-                    <div className="col-xl-7 col-xxl-6">
-                        <div className="row gy-50">
+                    <div className="col-xl-7 col-xxl-6 col-sm-4">
+                        <div className="row gy-50 counter-row">
                             <div className="col-md-6 col-xl-6 counter-card_wrapp">
                                 <div className="counter-card style2">
                                     <div className="counter-shape">
@@ -132,7 +132,7 @@ function CounterThree() {
                                     </div>
                                     <div className="media-body">
                                         <h3 className="box-number">
-                                            <CountUp end={12} duration={2} />{" "}
+                                            <CountUp end={12} duration={5} />{" "}
                                         </h3>
                                         <h6 className="counter-title">Years Experience</h6>
                                     </div>
@@ -145,7 +145,7 @@ function CounterThree() {
                                     </div>
                                     <div className="media-body">
                                         <h3 className="box-number">
-                                            <CountUp end={97} duration={2} />%{" "}
+                                            <CountUp end={97} duration={5} />%{" "}
                                         </h3>
                                         <h6 className="counter-title">Retention Rate</h6>
                                     </div>
@@ -158,7 +158,7 @@ function CounterThree() {
                                     </div>
                                     <div className="media-body">
                                         <h3 className="box-number">
-                                            <CountUp end={8} duration={2} />k{" "}
+                                            <CountUp end={8} duration={5} />k{" "}
                                         </h3>
                                         <h6 className="counter-title">Tour Completed</h6>
                                     </div>
@@ -171,7 +171,7 @@ function CounterThree() {
                                     </div>
                                     <div className="media-body">
                                         <h3 className="box-number">
-                                            <CountUp end={19} duration={2} />k{" "}
+                                            <CountUp end={19} duration={5} />k{" "}
                                         </h3>
                                         <h6 className="counter-title">Happy Travellers</h6>
                                     </div>
@@ -179,6 +179,64 @@ function CounterThree() {
                             </div>
                         </div>
                     </div>
+                    <style>
+{`
+  @media (max-width: 768px) {
+    .counter-row {
+      display: grid !important;
+      grid-template-columns: repeat(2, 1fr);  /* 2 cards per row */
+      column-gap: 5px;
+      row-gap: 15px;
+      margin: 0 !important;
+      --bs-gutter-y: 0;             /* kill Bootstrap vertical gap */
+      margin-bottom: 50px !important;                     
+    }
+
+    .counter-row .counter-card_wrapp {
+      padding: 0 !important;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .counter-row .counter-card {
+      width: 110px;
+      height: 110px;
+      min-height: auto !important;
+      border-radius: 50% !important;          /* circle */
+      padding: 10px !important;
+      margin: 0 !important;
+      box-sizing: border-box;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+    }
+
+    .counter-row .counter-shape {
+      display: none;
+    }
+
+    .counter-row .box-number {
+      font-size: 28px;
+      margin-bottom: 0px;
+      line-height: 1.51;
+    }
+
+    .counter-row .counter-title {
+      font-size: 13px;
+      line-height: 1.2;
+      margin: 0;
+    }
+  }
+`}
+</style>
+
+
+
+
+
                 </div>
             </div>
         </div>

@@ -3,21 +3,27 @@ import { useEffect, useRef, useState } from "react";
 import { Play, Pause, Volume2, VolumeX, Radius } from "lucide-react";
 
 const styles = {
-  container: {
-    position: 'relative',
-    width: '100%',
-    height: '80vh',
-    overflow: 'hidden',
-    borderRadius: '20px',   // added
-  },
-  video: {
-    position: 'absolute',
-    inset: 0,
-    width: '100%',
-    height: '100%',
-    objectFit: 'cover',
-    borderRadius: '20px',   // added
-  },
+ container: {
+  position: 'relative',
+  width: '100%',
+  height: '80vh',
+  overflow: 'hidden',
+  borderRadius: '20px',
+  padding: '10px',
+  display: 'flex',             // centering
+  justifyContent: 'center',    // horizontal center
+  // alignItems: 'center',        // vertical center (optional)
+},
+
+video: {
+  width: '99%',                // adjust size as desired
+  height: '100%',
+  objectFit: 'cover',
+  borderRadius: '20px',
+  margin: '0 auto',            // center + add margin
+  display: 'block',
+},
+
 
   controls: {
     display: 'flex',

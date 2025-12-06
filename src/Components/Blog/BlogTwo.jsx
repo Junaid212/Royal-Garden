@@ -9,7 +9,7 @@ const BlogTwo = () => {
         new Swiper('#blogSlider1', {
             breakpoints: {
                 0: {
-                    slidesPerView: 1,
+                    slidesPerView: 2,
                 },
                 576: {
                     slidesPerView: 1,
@@ -29,13 +29,13 @@ const BlogTwo = () => {
     }, []);
 
     return (
-        <section className=" overflow-hidden space-top" id="blog-sec">
+        <section className="overflow-hidden space-top" id="blog-sec">
             <div className="container shape-mockup-wrap">
                 <div className="mb-30 text-center text-md-start">
                     <div className="row align-items-center justify-content-between">
                         <div className="col-md-7">
                             <div className="title-area mb-md-0">
-                                <span className="sub-title">Gardens</span>
+                                <span className="sub-title" style={{fontSize:'64px', marginTop:'-50px'}}>Gardens</span>
                                 {/* <h2 className="sec-title">News & Articles From Tourm</h2> */}
                             </div>
                         </div>
@@ -81,20 +81,20 @@ const BlogTwo = () => {
                                     title: '10 Reason why you should visit New Jersey',
                                     link: '/blog/1',
                                 },
-                                // {
-                                //     date: 'July 10 2024',
-                                //     time: '10 min read',
-                                //     image: '/assets/img/blog/blog_2_2.jpg',
-                                //     title: 'The best time to visit Japan & enjoy the cherry blossoms',
-                                //     link: '/blog/1',
-                                // },
-                                // {
-                                //     date: 'July 12 2024',
-                                //     time: '11 min read',
-                                //     image: '/assets/img/blog/blog_2_3.jpg',
-                                //     title: 'The 7 amazing destinations for adventure seekers',
-                                //     link: '/blog/1',
-                                // },
+                                {
+                                    date: 'July 10 2024',
+                                    time: '10 min read',
+                                    image: '/assets/img/rg/77.webp',
+                                    title: 'The best time to visit Japan & enjoy the cherry blossoms',
+                                    link: '/blog/1',
+                                },
+                                {
+                                    date: 'July 12 2024',
+                                    time: '11 min read',
+                                    image: '/assets/img/rg/77.png',
+                                    title: 'The 7 amazing destinations for adventure seekers',
+                                    link: '/blog/1',
+                                },
                             ].map((post, index) => (
                                 <div className="swiper-slide" key={index}>
                                     <div className="blog-box th-ani">
@@ -147,6 +147,7 @@ const BlogTwo = () => {
                     <img src="/assets/img/shape/shape_3.png" alt="shape" />
                 </div>
             </div>
+            
         </section>
     );
 };

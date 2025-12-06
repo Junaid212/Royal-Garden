@@ -7,8 +7,8 @@ function AboutFour() {
          <div className="container shape-mockup-wrap">
             <div className="row">
                <div className="col-xl-7">
-                  <div className="img-box3">
-                     <div className="img1">
+                  <div className="img-box3" id='img-mobile1'>
+                     <div className="img1 hide-mobile">
                         <img src="/assets/img/rg/35.png" alt="About" />
                      </div>
                      <div className="img2">
@@ -19,6 +19,17 @@ function AboutFour() {
                      </div>
                   </div>
                </div>
+               <style>{`
+                            @media(max-width:768px){
+                            #img-mobile1 .img2{
+                            margin-right:40px !important;
+                            }
+                            #img-mobile1 .img3{
+                            margin-left:60px !important;
+                            margin-top:-100px !important;
+                            }
+                            }
+                            `}</style>
                <div className="col-xl-5">
                   <div className="ps-xl-4">
                      <div className="title-area mb-20">

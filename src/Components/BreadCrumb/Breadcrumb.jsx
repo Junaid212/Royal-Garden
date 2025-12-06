@@ -16,7 +16,7 @@ function Breadcrumb({ title, description, bgImage }) {
 }}
 
             >
-                <div className="container">
+                <div className="container" >
                     <div className="breadcumb-content">
                         <h1 className="breadcumb-title">{title}</h1>
                         <ul className="breadcumb-menu">

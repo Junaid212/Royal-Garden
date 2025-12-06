@@ -1,8 +1,6 @@
 import React, { useState } from 'react';
 
 export default function RunningText() {
-  const [coupleNames] = useState({ bride: "Sarah", groom: "Michael" });
-  const [weddingDate] = useState("June 15, 2025");
 
   const messages = [
     "Host Events",
@@ -17,7 +15,9 @@ export default function RunningText() {
       minHeight: '20vh',
       // backgroundColor: '#ecfdf5',
       overflow: 'hidden',
-      position: 'relative'
+      position: 'relative',
+      marginTop:'-32px',
+      marginBottom:'-22px'
     },
     decorativeBorder: {
       position: 'absolute',
@@ -231,23 +231,23 @@ export default function RunningText() {
               <React.Fragment key={setIndex}>
                 <span style={styles.secondaryItem}>
                   <span style={{ fontSize: '20px', color: '#047857' }}>✨</span>
-                  <span style={{ ...styles.secondaryText, margin: '0 16px' }}>
+                  <span style={{ ...styles.messageText, margin: '0 16px' }}>
                     Host Events
                   </span>
                   <span style={{ fontSize: '20px', color: '#047857' }}>✨</span>
-                  <span style={{ ...styles.secondaryText, margin: '0 16px' }}>
+                  <span style={{ ...styles.messageText, margin: '0 16px' }}>
                     Family Gatherings
                   </span>
                   <span style={{ fontSize: '20px', color: '#047857' }}>✨</span>
-                  <span style={{ ...styles.secondaryText, margin: '0 16px' }}>
+                  <span style={{ ...styles.messageText, margin: '0 16px' }}>
                     Peaceful Stays
                   </span>
                   <span style={{ fontSize: '20px', color: '#047857' }}>✨</span>
-                  <span style={{ ...styles.secondaryText, margin: '0 16px' }}>
+                  <span style={{ ...styles.messageText, margin: '0 16px' }}>
                     Stay & Celebrate
                   </span>
                   <span style={{ fontSize: '20px', color: '#047857' }}>✨</span>
-                  <span style={{ ...styles.secondaryText, margin: '0 16px' }}>
+                  <span style={{ ...styles.messageText, margin: '0 16px' }}>
                     Weekend Getaways
                   </span>
                 </span>
@@ -258,7 +258,7 @@ export default function RunningText() {
       </div>
       
        {/* Decorative Bottom Border */}
-      <div style={styles.decorativeBorder} />
+      {/* <div style={styles.decorativeBorder} /> */}
 
       {/* Custom Styles */}
       <style>{`
@@ -273,15 +273,15 @@ export default function RunningText() {
         }
         
         .animate-marquee {
-          animation: marquee 30s linear infinite;
+          animation: marquee 5s linear infinite;
         }
         
         .animate-marquee-reverse {
-          animation: marquee-reverse 25s linear infinite;
+          animation: marquee-reverse 5s linear infinite;
         }
         
         .animate-marquee-slow {
-          animation: marquee 45s linear infinite;
+          animation: marquee 5s linear infinite;
         }
         
         ${mediaQueries}
