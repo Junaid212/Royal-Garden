@@ -36,7 +36,12 @@ function DestinationTwo() {
                             >
                                 <div
                                     className="destination-list"
-                                    style={{ backgroundImage: `url('/assets/img/rg/${item.image}')` }}
+                                    style={{
+    backgroundImage: `url('/assets/img/rg/${item.image}')`,
+    backgroundSize: 'cover',          // or 'contain' if you want full image visible
+    backgroundPosition: 'center',
+    backgroundRepeat: 'no-repeat',
+  }}
                                 >
                                     <div className="destination-content">
                                         <h4 className="box-title">

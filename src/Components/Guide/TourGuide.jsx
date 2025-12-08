@@ -6,10 +6,10 @@ import "swiper/css/pagination";
 import { Link } from "react-router-dom";
 
 const guides = [
-  { id: 1, name: "Jacob Jones", image: "team_1_1.jpg" },
-  { id: 2, name: "Jane Cooper", image: "team_1_2.jpg" },
-  { id: 3, name: "Guy Hawkins", image: "team_1_3.jpg" },
-  { id: 4, name: "Jenny Wilson", image: "team_1_4.jpg" },
+  { id: 1, name: "Jacob Jones", image: "https://cdn.vectorstock.com/i/preview-1x/81/62/grey-business-avatar-placeholder-vector-38508162.jpg" },
+  { id: 2, name: "Jane Cooper", image: "https://cdn.vectorstock.com/i/preview-1x/81/62/grey-business-avatar-placeholder-vector-38508162.jpg" },
+  { id: 3, name: "Guy Hawkins", image: "https://cdn.vectorstock.com/i/preview-1x/81/62/grey-business-avatar-placeholder-vector-38508162.jpg" },
+  { id: 4, name: "Jenny Wilson", image: "https://cdn.vectorstock.com/i/preview-1x/81/62/grey-business-avatar-placeholder-vector-38508162.jpg" },
   // { id: 5, name: "Jacob Jones", image: "team_1_1.jpg" },
   // { id: 6, name: "Jane Cooper", image: "team_1_2.jpg" },
   // { id: 7, name: "Guy Hawkins", image: "team_1_3.jpg" },
@@ -35,8 +35,8 @@ function TourGuide() {
     >
       <div className="container z-index-common">
         <div className="title-area text-center">
-          <span className="sub-title">Meet with Guide</span>
-          <h2 className="sec-title">Tour Guide</h2>
+          <span className="sub-title">Meet with Team</span>
+          <h2 className="sec-title">Our Team</h2>
         </div>
         <div className="slider-area">
           <Swiper
@@ -59,14 +59,14 @@ function TourGuide() {
               <SwiperSlide key={guide.id}>
                 <div className="th-team team-box">
                   <div className="team-img">
-                    <img src={`/assets/img/team/${guide.image}`} alt={guide.name} />
+                    <img src={guide.image} alt={guide.name} />
                   </div>
                   <div className="team-content">
                     <div className="media-body">
                       <h3 className="box-title">
-                        <Link to="/tour-guide/1">{guide.name}</Link>
+                        <Link to="#">{guide.name}</Link>
                       </h3>
-                      <span className="team-desig">Tourist Guide</span>
+                      <span className="team-desig">Manager</span>
                       {/* <div className="th-social">
                         {["facebook", "twitter", "instagram", "linkedin"].map((platform) => (
                           <Link key={platform} target="_blank" rel="noopener noreferrer" to={`https://${platform}.com/`}>

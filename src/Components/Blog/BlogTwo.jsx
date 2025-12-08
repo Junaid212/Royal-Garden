@@ -58,42 +58,42 @@ const BlogTwo = () => {
                                     time: '6 min read',
                                     image: '/assets/img/rg/74.webp',
                                     title: '10 Reason why you should visit New Jersey',
-                                    link: '/blog/1',
+                                    link: '/gallery',
                                 },
                                 {
                                     date: 'July 06 2024',
                                     time: '7 min read',
                                     image: '/assets/img/rg/75.webp',
                                     title: 'The best time to visit Japan & enjoy the cherry blossoms',
-                                    link: '/blog/1',
+                                    link: '/gallery',
                                 },
                                 {
                                     date: 'July 07 2024',
                                     time: '8 min read',
                                     image: '/assets/img/rg/76.webp',
                                     title: 'The 7 amazing destinations for adventure seekers',
-                                    link: '/blog/1',
+                                    link: '/gallery',
                                 },
                                 {
                                     date: 'July 09 2024',
                                     time: '9 min read',
                                     image: '/assets/img/rg/77.webp',
                                     title: '10 Reason why you should visit New Jersey',
-                                    link: '/blog/1',
+                                    link: '/gallery',
                                 },
                                 {
                                     date: 'July 10 2024',
                                     time: '10 min read',
-                                    image: '/assets/img/rg/77.webp',
+                                    image: '/assets/img/rg/84.webp',
                                     title: 'The best time to visit Japan & enjoy the cherry blossoms',
-                                    link: '/blog/1',
+                                    link: '/gallery',
                                 },
                                 {
                                     date: 'July 12 2024',
                                     time: '11 min read',
-                                    image: '/assets/img/rg/77.png',
+                                    image: '/assets/img/rg/85.webp',
                                     title: 'The 7 amazing destinations for adventure seekers',
-                                    link: '/blog/1',
+                                    link: '/gallery',
                                 },
                             ].map((post, index) => (
                                 <div className="swiper-slide" key={index}>
@@ -147,7 +147,13 @@ const BlogTwo = () => {
                     <img src="/assets/img/shape/shape_3.png" alt="shape" />
                 </div>
             </div>
-            
+            <style>{`
+            @media(max-width:768px){
+            .blog-img img{
+                height:250px;
+            }
+            }
+            `}</style>
         </section>
     );
 };

@@ -41,7 +41,7 @@ function HomeOne() {
             <Video/>
             <AboutTwo />
             <CategoryOne />
-            <BrandOne />
+            {/* <BrandOne /> */}
             {/* <GalleryOne /> */}
             {/* <CategoryThree /> */}
             {/* <AboutTwo /> */}

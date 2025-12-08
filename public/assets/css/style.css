@@ -2405,8 +2405,8 @@ input[type=time]::-webkit-calendar-picker-indicator {
 }
 
 .th-menu-toggle {
-  width: 56px;
-  height: 56px;
+  width: 46px;
+  height: 46px;
   padding: 0;
   font-size: 20px;
   border: none;
