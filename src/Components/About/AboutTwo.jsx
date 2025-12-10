@@ -27,10 +27,19 @@ function AboutTwo() {
                             @media(max-width:768px){
                             #img-mobile .img1{
                             margin-right:60px !important;
+                            margin-left:30px !important;
+                            }
+                            .img1 img{
+                            height: 250px;
+                            width: 210px;
+                            }
+                            .img2 img{
+                            height: 250px;
+                            width: 210px;
                             }
                             #img-mobile .img2{
-                            margin-left:60px !important;
-                            margin-top:-190px !important;
+                            margin-left:130px !important;
+                            margin-top:-160px !important;
                             }
                             }
                             `}</style>

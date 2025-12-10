@@ -41,7 +41,7 @@ function GalleryTwo() {
                             }
                             `}</style>
                             <h2 className="sec-title">
-                                A Beautiful Place Designed Thoughtfully For Unforgettable Experiences
+                                Beautifully Crafted for Memories
                             </h2>
                         </div>
                         <p className="sec-text style2 text-title mb-50">
@@ -51,7 +51,7 @@ function GalleryTwo() {
                     </div>
                     <div className="col-auto">
                         <div className="sec-btn">
-                            <Link to="/gallery" className="th-btn style3 th-icon">
+                            <Link to="/gallery" className="th-btn style3 th-icon hide-mobile">
                                 Enter Gallery
                             </Link>
                         </div>
@@ -62,7 +62,7 @@ function GalleryTwo() {
                 <div className="row gy-24 gx-24 justify-content-center">
                     <div className="col-lg-3 gallery-box_wrapp">
                         <div className="gallery-box">
-                            <div className="gallery-img global-img">
+                            <div className="gallery-img global-img" id='img-main'>
                                 <Link
                                     to="/assets/img/rg/12.webp"
                                     className="popup-image"
@@ -120,14 +120,21 @@ function GalleryTwo() {
                         <style>{`
                        @media (max-width: 768px) {   /* apply only on mobile & small screens */
   #image {
-    margin-top: -110px;
+    margin-top: -100px;
     width: 90%;
-    margin-left: 20px;
+    margin-left: -5px;
   }
 
   #image img {
-    border: 5px solid white;
+    border: 3px solid white;
   }
+    #img-main{
+    margin-left:50px;
+    margin-top: -70px;
+    }
+    .sub-title{
+    margin-top: -160px !important;
+    }
 }
 
                         `}</style>

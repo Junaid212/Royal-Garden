@@ -80,6 +80,8 @@ function BannerTwo() {
     height: isMobile ? "530px" : "100%",  // mobile height vs desktop height
     // borderRadius:isMobile?"5px 0 0 5px":"20px",
     width: "100%",
+   
+    // margin:'30px'
       }} />
             <div className="container">
               <div className="hero-style2">
@@ -92,6 +94,18 @@ function BannerTwo() {
     : "Perfect for families, couples, and travelers, our rooms offer privacy, comfort, soft beds, and service that feels like home."
   }
 </p>
+<style>{`
+@media(max-width:768px){
+.hero-title{
+font-size: 44px !important;
+font-family:"Montez", cursive;
+}
+.hero-desc{
+font-size:14px !important;
+}
+
+}
+`}</style>
 
                 <div className="btn-group" data-ani="slideinup" data-ani-delay="0.6s">
                   {/* <Link to="/tour" className="th-btn white-btn th-icon">Explore Now</Link> */}
@@ -100,6 +114,11 @@ function BannerTwo() {
             </div>
           </div>
         </SwiperSlide>
+
+
+       
+
+        
         <SwiperSlide >
           <div className="hero-inner">
             <div className="th-hero-bg" style={{

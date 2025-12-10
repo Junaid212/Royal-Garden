@@ -22,7 +22,7 @@ function AboutFour() {
                <style>{`
                             @media(max-width:768px){
                             #img-mobile1 .img2{
-                            margin-right:40px !important;
+                            margin-right:60px !important;
                             }
                             #img-mobile1 .img3{
                             margin-left:60px !important;

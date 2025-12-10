@@ -21,6 +21,9 @@ function TestimonialThree() {
                             #subtext2{
                             margin-top:0px !important;
                             }
+                            .testi-area3{
+                            margin-bottom: -100px !important;
+                            }
                             }
                             `}</style>
                 <div className="row justify-content-center">

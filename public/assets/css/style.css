@@ -11152,6 +11152,7 @@ ul.comment-list:has(> .th-comment-item ~ .th-comment-item):first-child > .th-pos
   width: 100%;
   object-fit: cover;
   overflow: hidden;
+  
 }
 
 /* Hero 1 ---------------------------------- */
@@ -11533,13 +11534,32 @@ ul.comment-list:has(> .th-comment-item ~ .th-comment-item):first-child > .th-pos
   overflow: hidden;
 }
 
+/* @media (max-width: 768px) {   
+  .hero-2 .th-hero-bg {
+  border-radius: 1px;
+}
+  } */
 .hero-2 .th-hero-bg:before {
   content: '';
   position: absolute;
   inset: 0;
   background: -webkit-linear-gradient(bottom, rgba(13, 13, 12, 0.4), rgba(13, 13, 12, 0.4)), url(2218.jpg);
-  background: linear-gradient(0deg, rgba(13, 13, 12, 0.4), rgba(13, 13, 12, 0.4)), url(2218.jpg);
+  /* background: linear-gradient(0deg, rgba(13, 13, 12, 0.4), rgba(13, 13, 12, 0.4)), url(2218.jpg); */
   border-radius: 24px;
+}
+
+@media(max-width:768px){
+  .th-hero-bg  {
+    border: "none" !important;         
+    outline: "none" !important;         
+    border-radius: "0px" !important; 
+    border-radius: none  !important;
+    
+    
+  }
+  .hero-2 .th-hero-bg:before{
+    background:none;
+  }
 }
 
 .hero-2 .th-swiper-custom {
@@ -35575,3 +35595,4 @@ span.select2-selection.select2-selection--single:focus {
 .th-mobile-menu .menu-item-has-children.active > .sub-menu {
   height: auto;
 }
+
