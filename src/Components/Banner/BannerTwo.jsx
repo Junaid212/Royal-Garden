@@ -72,7 +72,7 @@ function BannerTwo() {
         <SwiperSlide>
           <div className="hero-inner">
             <div className="th-hero-bg" style={{
-        backgroundImage: `url(${isMobile ? '/assets/img/rg/80.webp' : '/assets/img/rg/10.webp'})`,
+        backgroundImage: `url(${isMobile ? '/assets/img/rgn/1.png' : '/assets/img/rg/10.webp'})`,
         backgroundRepeat: "no-repeat",
         // backgroundSize: "cover",
           backgroundSize: isMobile ? "cover" : "cover", // Mobile image fits fully
@@ -99,6 +99,7 @@ function BannerTwo() {
 .hero-title{
 font-size: 44px !important;
 font-family:"Montez", cursive;
+margin-top: 290px !important;
 }
 .hero-desc{
 font-size:14px !important;
@@ -122,7 +123,7 @@ font-size:14px !important;
         <SwiperSlide >
           <div className="hero-inner">
             <div className="th-hero-bg" style={{
-        backgroundImage: `url(${isMobile ? '/assets/img/rg/81.webp' : '/assets/img/rg/8.webp'})`,
+        backgroundImage: `url(${isMobile ? '/assets/img/rgn/81.png' : '/assets/img/rg/8.webp'})`,
         backgroundRepeat: "no-repeat",
         // backgroundSize: "cover",
           backgroundSize: isMobile ? "cover" : "cover", // Mobile image fits fully
@@ -184,7 +185,7 @@ font-size:14px !important;
         <SwiperSlide >
           <div className="hero-inner">
             <div className="th-hero-bg" style={{
-        backgroundImage: `url(${isMobile ? '/assets/img/rg/82.webp' : '/assets/img/rg/65.webp'})`,
+        backgroundImage: `url(${isMobile ? '/assets/img/rgn/2.png' : '/assets/img/rg/65.webp'})`,
         backgroundRepeat: "no-repeat",
         // backgroundSize: "cover",
           backgroundSize: isMobile ? "cover" : "cover", // Mobile image fits fully

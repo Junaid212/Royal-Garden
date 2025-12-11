@@ -11554,6 +11554,7 @@ ul.comment-list:has(> .th-comment-item ~ .th-comment-item):first-child > .th-pos
     outline: "none" !important;         
     border-radius: "0px" !important; 
     border-radius: none  !important;
+    height: 580px !important;
     
     
   }
@@ -11935,7 +11936,7 @@ ul.comment-list:has(> .th-comment-item ~ .th-comment-item):first-child > .th-pos
 /* Small devices */
 @media (max-width: 767px) {
   .hero-style2 {
-    padding: 150px 0;
+    padding: 130px 0;
   }
   .hero-style2 .hero-text {
     color: var(--white-color);

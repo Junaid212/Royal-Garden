@@ -102,17 +102,17 @@ function GalleryTwo() {
                         <div className="gallery-box " id='image'>
                             <div className="gallery-img global-img">
                                 <Link
-                                    to="/assets/img/rg/14.webp"
+                                    to="/assets/img/rg/15.webp"
                                     className="popup-image"
-                                    onClick={(e) => openModal('/assets/img/rg/14.webp', e)}
+                                    onClick={(e) => openModal('/assets/img/rg/15.webp', e)}
                                 >
                                     <div className="icon-btn">
                                         {/* <i className="fal fa-magnifying-glass-plus" /> */}
                                     </div>
                                     <img
-                                        src="/assets/img/rg/14.webp"
+                                        src="/assets/img/rg/15.webp"
                                         alt="gallery"
-                                        onClick={(e) => openModal('/assets/img/rg/14.webp', e)}
+                                        onClick={(e) => openModal('/assets/img/rg/15.webp', e)}
                                     />
                                 </Link>
                             </div>
@@ -133,7 +133,7 @@ function GalleryTwo() {
     margin-top: -70px;
     }
     .sub-title{
-    margin-top: -160px !important;
+    margin-top: -199px !important;
     }
 }
 
@@ -143,7 +143,7 @@ function GalleryTwo() {
                         <div className="gallery-box">
                             <div className="gallery-img global-img">
                                 <Link
-                                    to="/assets/img/rg/15.webp"
+                                    to="/assets/img/rg/14.webp"
                                     className="popup-image"
                                     onClick={(e) => openModal('/assets/img/gallery/gallery_2_4.jpg', e)}
                                 >
@@ -151,7 +151,7 @@ function GalleryTwo() {
                                         {/* <i className="fal fa-magnifying-glass-plus" /> */}
                                     </div>
                                     <img
-                                        src="/assets/img/rg/15.webp"
+                                        src="/assets/img/rg/14.webp"
                                         alt="gallery"
                                         onClick={(e) => openModal('/assets/img/gallery/gallery_2_4.jpg', e)}
                                     />
