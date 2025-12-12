@@ -11530,7 +11530,7 @@ ul.comment-list:has(> .th-comment-item ~ .th-comment-item):first-child > .th-pos
 }
 
 .hero-2 .th-hero-bg {
-  border-radius: 24px;
+  /* border-radius: 24px; */
   overflow: hidden;
 }
 
@@ -11555,7 +11555,6 @@ ul.comment-list:has(> .th-comment-item ~ .th-comment-item):first-child > .th-pos
     border-radius: "0px" !important; 
     border-radius: none  !important;
     height: 580px !important;
-    
     
   }
   .hero-2 .th-hero-bg:before{

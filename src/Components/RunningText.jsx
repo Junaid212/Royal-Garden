@@ -50,7 +50,7 @@ export default function RunningText() {
     },
     mainTitle: {
       fontSize: '48px',
-      fontWeight: '700',
+      fontWeight: '400',
       color: '#1f2937',
       letterSpacing: '0.025em',
       marginBottom: '12px'
@@ -76,7 +76,7 @@ export default function RunningText() {
     },
     dateText: {
       fontSize: '16px',
-      fontWeight: '500'
+      fontWeight: '300'
     },
     runningTextSection: {
       position: 'relative',
@@ -88,12 +88,13 @@ export default function RunningText() {
       overflow: 'hidden',
       padding: '20px 0',
       backgroundColor: '#0B3D2C',
-      color: 'white'
+      color: 'white',
     },
     marqueeSecondary: {
       overflow: 'hidden',
       padding: '16px 0',
       background: 'linear-gradient(90deg,rgba(191, 140, 0, 1) 0%, rgba(255, 217, 112, 1) 50%, rgba(176, 130, 4, 1) 100%)',
+      color: '#0B3D2C',
       // borderTop: '1px solid #a7f3d0',
       // borderBottom: '1px solid #a7f3d0'
     },

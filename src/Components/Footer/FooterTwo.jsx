@@ -100,6 +100,16 @@ function FooterTwo() {
                                                     +91 96325 26302
                                                 </Link>
                                             </p>
+                                            <p>
+                                                <Link to="/tel:+917899443696 " className="info-box_link">
+                                                    +91 78994 43696 
+                                                </Link>
+                                            </p>
+                                            <p>
+                                                <Link to="/tel:+919036023696" className="info-box_link">
+                                                    +91 90360 23696
+                                                </Link>
+                                            </p>
                                             {/* <p>
                                                 <Link to="/tel:+09876543210" className="info-box_link">
                                                     +09 876 543 210

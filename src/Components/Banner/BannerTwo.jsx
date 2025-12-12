@@ -104,6 +104,9 @@ margin-top: 290px !important;
 .hero-desc{
 font-size:14px !important;
 }
+.th-hero-bg{
+border-radius:none;
+}
 
 }
 `}</style>
