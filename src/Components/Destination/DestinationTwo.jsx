@@ -3,10 +3,11 @@ import { Link } from "react-router-dom";
 
 function DestinationTwo() {
     const destinations = [
-        { name: "Bed Space", image: "47.webp", listings: 28 },
-        { name: "Room Stay", image: "48.webp", listings: 15 },
-        { name: "Home Stay", image: "49.webp", listings: 22 },
         { name: "Resort", image: "50.webp", listings: 25 },
+        { name: "Home Stay", image: "49.webp", listings: 22 },
+        { name: "Room Stay", image: "48.webp", listings: 15 },
+        { name: "Bed Space", image: "47.webp", listings: 28 },
+        
     ];
 
     const [activeIndex, setActiveIndex] = useState(3); // Default active index (Maldives)

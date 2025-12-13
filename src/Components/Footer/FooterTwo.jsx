@@ -34,10 +34,18 @@ function FooterTwo() {
                         <div className="col-md-6 col-xl-3">
                             <div className="widget footer-widget">
                                 <div className="th-widget-about">
-                                    <div className="about-logo" style={{marginLeft:'-20px'}}>
+                                    <div className="about-logo" style={{marginLeft:'-20px' }}>
                                         <Link to="/">
-                                            <img src="/assets/img/rg/29.webp" alt="Tourm" />
+                                            <img src="/assets/img/rg/logo.png" alt="Tourm" />
                                         </Link>
+                                        <style>{`@media(max-width:768px){
+                                        .about-logo{
+                                        margin-top:-60px !important;
+                                        }
+                                        .about-logo img{
+                                        height:60px;
+                                        }
+                                        }`}</style>
                                     </div>
                                     <p className="about-text">
                                         We welcome you to relax, celebrate, and enjoy unforgettable moments together.

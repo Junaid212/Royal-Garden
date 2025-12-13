@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 
 export default function RunningText() {
+const isMobile = window.innerWidth <= 768;
 
   const messages = [
     "Host Events",
@@ -121,7 +122,7 @@ export default function RunningText() {
     messageItem: {
       display: 'inline-flex',
       alignItems: 'center',
-      margin: '0 32px'
+      margin: '0 12px'
     },
     messageText: {
       fontSize: '30px',
@@ -208,7 +209,7 @@ export default function RunningText() {
       <div style={styles.runningTextSection}>
         
         {/* Primary Marquee - Large */}
-        <div style={styles.marqueePrimary}>
+        <div style={styles.marqueePrimary} className='marque-primary'>
           <div style={styles.marqueeContent} className="animate-marquee">
             {[...Array(4)].map((_, setIndex) => (
               <React.Fragment key={setIndex}>
@@ -226,7 +227,7 @@ export default function RunningText() {
         </div>
 
         {/* Secondary Marquee - Reverse Direction */}
-        <div style={styles.marqueeSecondary}>
+        <div style={styles.marqueeSecondary} className='marque-secondary'>
           <div style={styles.marqueeContent} className="animate-marquee-reverse">
             {[...Array(6)].map((_, setIndex) => (
               <React.Fragment key={setIndex}>
@@ -274,17 +275,37 @@ export default function RunningText() {
         }
         
         .animate-marquee {
-          animation: marquee 5s linear infinite;
+          animation: marquee 10s linear infinite;
         }
         
         .animate-marquee-reverse {
-          animation: marquee-reverse 5s linear infinite;
+          animation: marquee-reverse 10s linear infinite;
         }
         
         .animate-marquee-slow {
-          animation: marquee 5s linear infinite;
+          animation: marquee 10s linear infinite;
         }
-        
+
+        @media (max-width: 768px) {
+  .animate-marquee-reverse span {
+    font-size: 18px !important;
+    font-weight: 200 !important;
+  }
+
+  .marque-secondary{
+    padding: 6px 0 !important;
+  }
+  .animate-marquee span {
+    font-size: 18px !important;
+    font-weight: 200 !important;
+  }
+
+  .marque-primary{
+    padding: 6px 0 !important;
+  }
+
+}
+
         ${mediaQueries}
       `}</style>
     </div>

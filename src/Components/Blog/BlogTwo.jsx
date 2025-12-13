@@ -1,21 +1,23 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import Swiper from 'swiper';
+import { Autoplay } from 'swiper/modules'; // Import Autoplay module
 import "swiper/css";
 
 const BlogTwo = () => {
     // Initialize Swiper after the component is mounted
     React.useEffect(() => {
         new Swiper('#blogSlider1', {
+            modules: [Autoplay], // Add Autoplay module
             breakpoints: {
                 0: {
-                    slidesPerView: 2,
+                    slidesPerView: 1,
                 },
                 576: {
                     slidesPerView: 1,
                 },
                 768: {
-                    slidesPerView: 2,
+                    slidesPerView: 1,
                 },
                 992: {
                     slidesPerView: 2,
@@ -24,7 +26,12 @@ const BlogTwo = () => {
                     slidesPerView: 3,
                 },
             },
-            "spaceBetween": 20
+            spaceBetween: 20,
+            autoplay: {
+                delay: 2000, // 2 seconds delay
+                disableOnInteraction: false, // Continue autoplay after user interaction
+            },
+            loop: true, // Enable infinite loop for better UX
         });
     }, []);
 
@@ -56,42 +63,42 @@ const BlogTwo = () => {
                                 {
                                     date: 'July 05 2024',
                                     time: '6 min read',
-                                    image: '/assets/img/rg/74.webp',
+                                    image: '/assets/img/rg/99.webp',
                                     title: '10 Reason why you should visit New Jersey',
                                     link: '/gallery',
                                 },
                                 {
                                     date: 'July 06 2024',
                                     time: '7 min read',
-                                    image: '/assets/img/rg/75.webp',
+                                    image: '/assets/img/rg/100.webp',
                                     title: 'The best time to visit Japan & enjoy the cherry blossoms',
                                     link: '/gallery',
                                 },
                                 {
                                     date: 'July 07 2024',
                                     time: '8 min read',
-                                    image: '/assets/img/rg/76.webp',
+                                    image: '/assets/img/rg/101.webp',
                                     title: 'The 7 amazing destinations for adventure seekers',
                                     link: '/gallery',
                                 },
                                 {
                                     date: 'July 09 2024',
                                     time: '9 min read',
-                                    image: '/assets/img/rg/77.webp',
+                                    image: '/assets/img/rg/102.webp',
                                     title: '10 Reason why you should visit New Jersey',
                                     link: '/gallery',
                                 },
                                 {
                                     date: 'July 10 2024',
                                     time: '10 min read',
-                                    image: '/assets/img/rg/84.webp',
+                                    image: '/assets/img/rg/103.webp',
                                     title: 'The best time to visit Japan & enjoy the cherry blossoms',
                                     link: '/gallery',
                                 },
                                 {
                                     date: 'July 12 2024',
                                     time: '11 min read',
-                                    image: '/assets/img/rg/85.webp',
+                                    image: '/assets/img/rg/104.webp',
                                     title: 'The 7 amazing destinations for adventure seekers',
                                     link: '/gallery',
                                 },
@@ -150,7 +157,7 @@ const BlogTwo = () => {
             <style>{`
             @media(max-width:768px){
             .blog-img img{
-                height:250px;
+                height:350px;
             }
             }
             `}</style>
@@ -159,4 +166,3 @@ const BlogTwo = () => {
 };
 
 export default BlogTwo;
-

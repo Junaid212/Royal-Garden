@@ -40,7 +40,7 @@ function MobileMenu({ isOpen, onClose }) {
 
                 <div className="mobile-logo">
                     <Link to="/">
-                        <img src="/assets/img/rg/29.webp" alt="Tourm" />
+                        <img src="/assets/img/rg/logo.png" alt="Tourm" />
                     </Link>
                 </div>
 
