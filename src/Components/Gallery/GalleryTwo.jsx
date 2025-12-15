@@ -58,7 +58,7 @@ function GalleryTwo() {
                     </div>
                 </div>
             </div>
-            <div className="container th-container2 shape-mockup-wrap">
+            <div className="container th-container2 shape-mockup-wrap hide-mobile">
                 <div className="row gy-24 gx-24 justify-content-center">
                     <div className="col-lg-3 gallery-box_wrapp">
                         <div className="gallery-box">
@@ -117,7 +117,13 @@ function GalleryTwo() {
                                 </Link>
                             </div>
                         </div>
+                       
                         <style>{`
+                        @media(max-width:1024px){
+    .hide-system{
+    display: none !important;
+    }
+                        }
                        @media (max-width: 768px) {   /* apply only on mobile & small screens */
   #image {
     margin-top: -100px;
@@ -136,7 +142,156 @@ function GalleryTwo() {
     margin-top: -199px !important;
     }
 }
+  /* Default: hide on desktop */
+.hide-desktop {
+  display: none;
+}
 
+/* Show only on mobile */
+@media (max-width: 767px) {
+  .hide-desktop {
+    display: block;
+  }
+}
+  /* About area 1 start -------------------------*/
+.img-box1 {
+  position: relative;
+  margin-bottom: 20px;
+  /* Large devices */
+}
+
+@media (max-width: 1199px) {
+  .img-box1 {
+    margin-bottom: 20px;
+  }
+}
+
+.img-box1 .img1 {
+  position: relative;
+  overflow: hidden;
+  /* Medium Large devices */
+}
+
+@media (max-width: 1299px) {
+  .img-box1 .img1 {
+    max-width: 280px;
+  }
+}
+
+@media (max-width: 480px) {
+  .img-box1 .img1 {
+    max-width: 46%;
+  }
+}
+
+.img-box1 .img1 img {
+  border-radius: 24px 0px 54px 0px;
+  margin-left: 20px;
+}
+
+.img-box1 .img2 {
+  position: absolute;
+  top: 0;
+  right: 0;
+  overflow: hidden;
+  /* Medium Large devices */
+  /* Large devices */
+  /* Medium devices */
+  /* Small devices */
+}
+
+@media (max-width: 1399px) {
+  .img-box1 .img2 {
+    max-width: 280px;
+  }
+}
+
+@media (max-width: 1299px) {
+  .img-box1 .img2 {
+    max-width: 220px;
+  }
+}
+
+@media (max-width: 1199px) {
+  .img-box1 .img2 {
+    right: 40%;
+  }
+}
+
+@media (max-width: 991px) {
+  .img-box1 .img2 {
+    right: 20%;
+  }
+}
+
+@media (max-width: 767px) {
+  .img-box1 .img2 {
+    right: 6%;
+  }
+}
+
+@media (max-width: 480px) {
+  .img-box1 .img2 {
+    left: 50%;
+  }
+}
+
+.img-box1 .img2 img {
+  border-radius: 0px 156px 156px 0px;
+}
+
+.img-box1 .img3 {
+  position: absolute;
+  bottom: -20px;
+  right: 0;
+  overflow: hidden;
+  /* Medium Large devices */
+  /* Large devices */
+  /* Medium devices */
+  /* Small devices */
+}
+
+@media (max-width: 1399px) {
+  .img-box1 .img3 {
+    max-width: 280px;
+  }
+}
+
+@media (max-width: 1299px) {
+  .img-box1 .img3 {
+    max-width: 220px;
+  }
+}
+
+@media (max-width: 1199px) {
+  .img-box1 .img3 {
+    right: 40%;
+  }
+}
+
+@media (max-width: 991px) {
+  .img-box1 .img3 {
+    right: 20%;
+  }
+}
+
+@media (max-width: 767px) {
+  .img-box1 .img3 {
+    right: 6%;
+    bottom:-10px;
+  }
+}
+
+@media (max-width: 480px) {
+  .img-box1 .img3 {
+    left: 50%;
+  }
+}
+
+.img-box1 .img3 img {
+  border-radius: 0px 156px 0px 136px;
+}
+  
                         `}</style>
                     </div>
                     <div className="col-lg-3 gallery-box_wrapp hide-mobile">
@@ -198,6 +353,7 @@ function GalleryTwo() {
                         </div>
                     </div>
                 </div>
+                
                 <div
                     className="shape-mockup movingX d-none d-xl-block"
                     style={{
@@ -217,6 +373,22 @@ function GalleryTwo() {
                     <img src="/assets/img/shape/shape_2_4.png" alt="shape" />
                 </div>
             </div>
+             <div className="row hide-desktop">
+  <div className="col-xl-6">
+    <div className="img-box1">
+      <div className="img1">
+        <img src="/assets/img/rg/31.webp" alt="About" />
+      </div>
+      <div className="img2">
+        <img src="/assets/img/rg/32.webp" alt="About" />
+      </div>
+      <div className="img3">
+        <img src="/assets/img/rg/33.webp" alt="About" />
+      </div>
+    </div>
+  </div>
+</div>
+
             <Modal isOpen={isModalOpen} closeModal={closeModal} imageSrc={modalImage} />
         </div>
 

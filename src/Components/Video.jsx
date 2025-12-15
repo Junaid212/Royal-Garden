@@ -142,7 +142,7 @@ const Video = () => {
           playsInline
         >
           <source
-            src="/assets/img/hero/Royal Garden v2.mp4"
+            src="/Royal Garden V2.mp4"
             type="video/mp4"
           />
         </video>

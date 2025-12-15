@@ -207,19 +207,22 @@ function AboutTwo() {
             icon: Gamepad2,
             title: "Indoor Games",
             description: "Play pool, table tennis, and board games in our well-equipped clubhouse.",
-            gradient: "emerald-teal"
+            cardBg: "golden-bg", // Changed to golden
+            iconBg: "emerald-teal" // Icon background stays green
         },
         {
             icon: Music,
             title: "Relax with Music",
             description: "Enjoy soft music, entertainment nights, and gatherings in comfortable spaces.",
-            gradient: "amber-orange"
+            cardBg: "light-green-bg", // Changed to light green
+            iconBg: "amber-orange" // Icon background stays amber/orange
         },
         {
             icon: Sofa,
             title: "Private Lounge",
             description: "Spend quality time with friends or family in a cozy, elegant lounge.",
-            gradient: "violet-purple"
+            cardBg: "golden-bg", // Changed to golden
+            iconBg: "violet-purple" // Icon background stays purple
         }
     ];
 
@@ -230,7 +233,6 @@ function AboutTwo() {
                     position: relative;
                     padding: 6rem 0;
                     overflow: hidden;
-                    // background: linear-gradient(to bottom right, #fafaf9, #ffffff, rgba(16, 185, 129, 0.05));
                 }
 
                 @media (min-width: 1024px) {
@@ -263,7 +265,6 @@ function AboutTwo() {
                     right: -8rem;
                     width: 31.25rem;
                     height: 31.25rem;
-                    // background: linear-gradient(to top left, rgba(253, 230, 138, 0.2), rgba(254, 215, 170, 0.1));
                     border-radius: 9999px;
                     filter: blur(64px);
                 }
@@ -314,13 +315,11 @@ function AboutTwo() {
 
                 .image-section {
                     position: relative;
-                    /* On mobile: image comes first */
                     order: 1;
                 }
 
                 @media (min-width: 1024px) {
                     .image-section {
-                        /* On desktop: image stays on left */
                         order: 1;
                     }
                 }
@@ -351,7 +350,6 @@ function AboutTwo() {
                     .main-image {
                         height: 31.25rem;
                     }
-                       
                 }
 
                 .main-image-overlay {
@@ -427,9 +425,8 @@ function AboutTwo() {
                     font-size: 1.125rem;
                     font-weight: 700;
                     margin: 0;
-                    color:white;
+                    color: white;
                 }
-                    
 
                 .decorative-border {
                     position: absolute;
@@ -444,13 +441,11 @@ function AboutTwo() {
                 }
 
                 .content-section {
-                    /* On mobile: text comes after image */
                     order: 2;
                 }
 
                 @media (min-width: 1024px) {
                     .content-section {
-                        /* On desktop: text stays on right */
                         order: 2;
                     }
                 }
@@ -552,18 +547,36 @@ function AboutTwo() {
                     gap: 1.25rem;
                     padding: 1.25rem;
                     border-radius: 1rem;
-                    background-color: rgba(211, 228, 220, 0.7);
                     backdrop-filter: blur(8px);
                     border: 1px solid rgba(231, 229, 228, 0.6);
                     box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
                     transition: all 0.3s;
-                    color:#0B3D2C;
+                }
+
+                /* Golden background for 1st and 3rd cards */
+                .golden-bg {
+                    background:  linear-gradient(90deg,rgba(191, 140, 0, 1) 0%, rgba(255, 217, 112, 1) 50%, rgba(176, 130, 4, 1) 100%);
+                    color: #8B4513;
+                }
+
+                .golden-bg:hover {
+                    border-color: #D4AF37;
+                    box-shadow: 0 10px 15px -3px rgba(212, 175, 55, 0.3);
+                }
+
+                /* Light green background for 2nd card */
+                .light-green-bg {
+                    background: linear-gradient(135deg, #E8F5E9 0%, #C8E6C9 100%);
+                    color: #0B3D2C;
+                }
+
+                .light-green-bg:hover {
+                    border-color: #A5D6A7;
+                    box-shadow: 0 10px 15px -3px rgba(165, 214, 167, 0.3);
                 }
 
                 .feature-card:hover {
                     transform: translateX(8px) scale(1.02);
-                    box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1);
-                    border-color: #a7f3d0;
                 }
 
                 .feature-icon {
@@ -582,6 +595,7 @@ function AboutTwo() {
                     transform: scale(1.1);
                 }
 
+                /* Icon backgrounds - opposite colors */
                 .icon-gradient-emerald {
                     background: linear-gradient(to bottom right, #0B3D2C, #0B3D2C);
                 }
@@ -601,9 +615,17 @@ function AboutTwo() {
                 .feature-title {
                     font-size: 1.125rem;
                     font-weight: 700;
-                    color: #0B3D2C;
                     margin-bottom: 0.25rem;
                     transition: color 0.3s;
+                }
+
+                /* Title colors based on card background */
+                .golden-bg .feature-title {
+                    color: #5D4037;
+                }
+
+                .light-green-bg .feature-title {
+                    color: #0B3D2C;
                 }
 
                 .feature-card:hover .feature-title {
@@ -611,10 +633,18 @@ function AboutTwo() {
                 }
 
                 .feature-description {
-                    color: #57534e;
                     font-size: 0.875rem;
                     line-height: 1.5;
                     margin: 0;
+                }
+
+                /* Description colors based on card background */
+                .golden-bg .feature-description {
+                    color: #795548;
+                }
+
+                .light-green-bg .feature-description {
+                    color: #57534e;
                 }
 
                 .feature-arrow {
@@ -660,15 +690,15 @@ function AboutTwo() {
                     width: 100%;
                     height: 100%;
                 }
-                    @media(max-width:768px){
-                    #sub-title{
-                    margin-top:230px !important;
+
+                @media(max-width:768px) {
+                    #sub-title {
+                        margin-top: 230px !important;
                     }
-                    }
+                }
             `}</style>
 
             <section className="about-section">
-                {/* Decorative Background Elements */}
                 <div className="bg-decorations">
                     <motion.div
                         animate={{ 
@@ -700,7 +730,7 @@ function AboutTwo() {
                 <div className="container-custom">
                     <div className="grid-layout">
                         
-                        {/* Image Section - Now comes FIRST on mobile */}
+                        {/* Image Section */}
                         <motion.div
                             initial="hidden"
                             whileInView="visible"
@@ -709,7 +739,6 @@ function AboutTwo() {
                             className="image-section"
                         >
                             <div className="image-wrapper">
-                                {/* Main Image */}
                                 <motion.div
                                     variants={imageVariants}
                                     className="main-image-container"
@@ -726,7 +755,6 @@ function AboutTwo() {
                                     </div>
                                 </motion.div>
 
-                                {/* Secondary Image */}
                                 <motion.div
                                     variants={imageVariants}
                                     className="secondary-image-container"
@@ -744,7 +772,6 @@ function AboutTwo() {
                                     </motion.div>
                                 </motion.div>
 
-                                {/* Floating Badge */}
                                 <motion.div
                                     initial={{ opacity: 0, scale: 0 }}
                                     whileInView={{ opacity: 1, scale: 1 }}
@@ -757,17 +784,15 @@ function AboutTwo() {
                                         transition={{ duration: 6, repeat: Infinity, ease: "easeInOut" }}
                                         className="badge-inner"
                                     >
-                                        {/* <p className="badge-subtitle">Premium</p> */}
                                         <p className="badge-title">Clubhouse</p>
                                     </motion.div>
                                 </motion.div>
 
-                                {/* Decorative Elements */}
                                 <div className="decorative-border" />
                             </div>
                         </motion.div>
 
-                        {/* Content Section - Now comes SECOND on mobile */}
+                        {/* Content Section */}
                         <motion.div
                             initial="hidden"
                             whileInView="visible"
@@ -813,9 +838,9 @@ function AboutTwo() {
                                         key={index}
                                         variants={itemVariants}
                                         whileHover={{ x: 8, scale: 1.02 }}
-                                        className="feature-card"
+                                        className={`feature-card ${feature.cardBg}`}
                                     >
-                                        <div className={`feature-icon icon-gradient-${feature.gradient.split('-')[0]}`}>
+                                        <div className={`feature-icon icon-gradient-${feature.iconBg.split('-')[0]}`}>
                                             <feature.icon style={{ width: '1.5rem', height: '1.5rem', color: 'white', strokeWidth: 1.5 }} />
                                         </div>
                                         <div className="feature-content">
@@ -831,33 +856,15 @@ function AboutTwo() {
                                             whileHover={{ opacity: 1, x: 0 }}
                                             className="feature-arrow"
                                         >
-                                            <ArrowRight style={{ width: '1.25rem', height: '1.25rem', color: '#059669', opacity: 0 }} className="arrow-icon" />
+                                            <ArrowRight style={{ width: '1.25rem', height: '1.25rem', opacity: 0 }} className="arrow-icon" />
                                         </motion.div>
                                     </motion.div>
                                 ))}
                             </motion.div>
-
-                            {/* CTA Button */}
-                            {/* <motion.div variants={itemVariants} className="cta-button-container">
-                                <motion.button
-                                    whileHover={{ scale: 1.02 }}
-                                    whileTap={{ scale: 0.98 }}
-                                    className="cta-button"
-                                >
-                                    Discover More
-                                    <motion.span
-                                        animate={{ x: [0, 4, 0] }}
-                                        transition={{ duration: 1.5, repeat: Infinity }}
-                                    >
-                                        <ArrowRight style={{ width: '1.25rem', height: '1.25rem' }} />
-                                    </motion.span>
-                                </motion.button>
-                            </motion.div> */}
                         </motion.div>
                     </div>
                 </div>
 
-                {/* Bottom Decorative Wave */}
                 <div className="wave-decoration">
                     <svg
                         viewBox="0 0 1200 120"
