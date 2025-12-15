@@ -230,7 +230,7 @@ function AboutTwo() {
                     position: relative;
                     padding: 6rem 0;
                     overflow: hidden;
-                    background: linear-gradient(to bottom right, #fafaf9, #ffffff, rgba(16, 185, 129, 0.05));
+                    // background: linear-gradient(to bottom right, #fafaf9, #ffffff, rgba(16, 185, 129, 0.05));
                 }
 
                 @media (min-width: 1024px) {
@@ -263,7 +263,7 @@ function AboutTwo() {
                     right: -8rem;
                     width: 31.25rem;
                     height: 31.25rem;
-                    background: linear-gradient(to top left, rgba(253, 230, 138, 0.2), rgba(254, 215, 170, 0.1));
+                    // background: linear-gradient(to top left, rgba(253, 230, 138, 0.2), rgba(254, 215, 170, 0.1));
                     border-radius: 9999px;
                     filter: blur(64px);
                 }
@@ -314,11 +314,13 @@ function AboutTwo() {
 
                 .image-section {
                     position: relative;
-                    order: 2;
+                    /* On mobile: image comes first */
+                    order: 1;
                 }
 
                 @media (min-width: 1024px) {
                     .image-section {
+                        /* On desktop: image stays on left */
                         order: 1;
                     }
                 }
@@ -406,7 +408,7 @@ function AboutTwo() {
                 }
 
                 .badge-inner {
-                    background: linear-gradient(to bottom right, #059669, #0f766e);
+                    background: linear-gradient(to bottom right, #0B3D2C, #0B3D2C);
                     color: white;
                     padding: 0.75rem 1.25rem;
                     border-radius: 1rem;
@@ -426,6 +428,9 @@ function AboutTwo() {
                     margin: 0;
                     color:white;
                 }
+                    .sub-title{
+                    padding-top: 80px;
+                    }
 
                 .decorative-border {
                     position: absolute;
@@ -435,16 +440,18 @@ function AboutTwo() {
                     transform: translate(-50%, -50%) rotate(3deg);
                     width: 120%;
                     height: 120%;
-                    border: 2px dashed rgba(167, 243, 208, 0.5);
+                    border: 2px dashed #a7f3d080;
                     border-radius: 3rem;
                 }
 
                 .content-section {
-                    order: 1;
+                    /* On mobile: text comes after image */
+                    order: 2;
                 }
 
                 @media (min-width: 1024px) {
                     .content-section {
+                        /* On desktop: text stays on right */
                         order: 2;
                     }
                 }
@@ -546,7 +553,7 @@ function AboutTwo() {
                     gap: 1.25rem;
                     padding: 1.25rem;
                     border-radius: 1rem;
-                    background-color: rgba(255, 255, 255, 0.7);
+                    background-color: rgba(211, 228, 220, 0.7);
                     backdrop-filter: blur(8px);
                     border: 1px solid rgba(231, 229, 228, 0.6);
                     box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
@@ -694,7 +701,7 @@ function AboutTwo() {
                 <div className="container-custom">
                     <div className="grid-layout">
                         
-                        {/* Image Section */}
+                        {/* Image Section - Now comes FIRST on mobile */}
                         <motion.div
                             initial="hidden"
                             whileInView="visible"
@@ -761,7 +768,7 @@ function AboutTwo() {
                             </div>
                         </motion.div>
 
-                        {/* Content Section */}
+                        {/* Content Section - Now comes SECOND on mobile */}
                         <motion.div
                             initial="hidden"
                             whileInView="visible"
