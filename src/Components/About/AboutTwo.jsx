@@ -351,6 +351,7 @@ function AboutTwo() {
                     .main-image {
                         height: 31.25rem;
                     }
+                       
                 }
 
                 .main-image-overlay {
@@ -428,9 +429,7 @@ function AboutTwo() {
                     margin: 0;
                     color:white;
                 }
-                    .sub-title{
-                    padding-top: 80px;
-                    }
+                    
 
                 .decorative-border {
                     position: absolute;
@@ -662,8 +661,8 @@ function AboutTwo() {
                     height: 100%;
                 }
                     @media(max-width:768px){
-                    .sub-title{
-                    margin-top:-80px !important;
+                    #sub-title{
+                    margin-top:230px !important;
                     }
                     }
             `}</style>
@@ -778,7 +777,7 @@ function AboutTwo() {
                         >
                             <motion.div variants={itemVariants}>
                                 <span className="sub-title">
-                                    <span className="sub-title" />
+                                    <span className="sub-title" id='sub-title'/>
                                     Explore Our Clubhouse
                                 </span>
                             </motion.div>

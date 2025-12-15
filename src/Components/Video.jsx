@@ -3,28 +3,24 @@ import { useEffect, useRef, useState } from "react";
 import { Play, Pause, Volume2, VolumeX, Radius } from "lucide-react";
 
 const styles = {
- container: {
-  position: 'relative',
-  width: '100%',
-  height: '80vh',
-  overflow: 'hidden',
-  borderRadius: '20px',
-  padding: '10px',
-  display: 'flex',             // centering
-  justifyContent: 'center',    // horizontal center
-  // alignItems: 'center',        // vertical center (optional)
-},
-
-video: {
-  width: '99%',                // adjust size as desired
-  height: '100%',
-  objectFit: 'cover',
-  borderRadius: '20px',
-  margin: '0 auto',            // center + add margin
-  display: 'block',
-},
-
-
+  container: {
+    position: 'relative',
+    width: '100%',
+    height: '100vh',
+    overflow: 'hidden',
+    borderRadius: '20px',
+    padding: '10px',
+    display: 'flex',
+    justifyContent: 'center',
+  },
+  video: {
+    width: '99%',
+    height: '100%',
+    objectFit: 'cover',
+    borderRadius: '20px',
+    margin: '0 auto',
+    display: 'block',
+  },
   controls: {
     display: 'flex',
     gap: '1rem',
@@ -90,20 +86,63 @@ const Video = () => {
             transform: translateY(0);
           }
         }
+
+        /* Mobile-specific styles */
+        @media (max-width: 768px) {
+          .video-container-mobile {
+            height: auto !important;
+            min-height: 80vh;
+            padding: 0 !important;
+            border-radius: 0 !important;
+            align-items: flex-start !important;
+          }
+          
+          .video-mobile {
+            width: 97% !important;
+            height: auto !important;
+            object-fit: contain !important;
+            border-radius: 20px !important;
+            margin: 0 !important;
+          }
+        }
+
+        /* Small mobile devices */
+        @media (max-width: 480px) {
+          .video-container-mobile {
+            min-height: 30vh;
+          }
+        }
+
+        /* Landscape mode */
+        @media (max-height: 500px) and (orientation: landscape) {
+          .video-container-mobile {
+            min-height: 100vh;
+          }
+          
+          .video-mobile {
+            height: 90vh !important;
+            width: auto !important;
+            max-width: 100% !important;
+          }
+        }
       `}</style>
       
-      <div style={styles.container}>
+      <div 
+        style={styles.container} 
+        className="video-container-mobile"
+      >
         {/* Video Element */}
         <video
           ref={videoRef}
           style={styles.video}
+          className="video-mobile"
           autoPlay
           muted
           loop
           playsInline
         >
           <source
-            src="/assets/img/hero/hero-video.mp4"
+            src="/assets/img/hero/Royal Garden v2.mp4"
             type="video/mp4"
           />
         </video>

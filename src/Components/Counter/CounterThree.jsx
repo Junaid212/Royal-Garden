@@ -22,7 +22,7 @@ function CounterThree() {
 
     return (
         <div
-            className="bg-top-center space-top overflow-hidden"
+            className="bg-top-center space-top overflow-hidden hide-mobile"
             style={{
   backgroundImage: "linear-gradient( rgba(13, 40, 24, 0.7), rgba(26, 74, 58, 0.8), rgba(13, 40, 24, 0.75)),url('/assets/img/rg/19.webp')",
   backgroundRepeat: "no-repeat",

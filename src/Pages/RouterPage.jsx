@@ -31,6 +31,7 @@ import Blog from './Blog'
 import BlogDetails from './BlogDetails'
 import Contact from './Contact'
 import WhatsAppButton from '../Components/WhatsAppButton'
+import Stats from '../Components/Services/Stats'
 function RouterPage() {
   return (
     <div>

@@ -25,6 +25,8 @@ import TourGuide from '../Components/Guide/TourGuide'
 import CounterOne from '../Components/Counter/CounterOne'
 import GalleryTwo from '../Components/Gallery/GalleryTwo'
 import Video from '../Components/Video'
+import StatCard from '../Components/StatCard'
+import Stat from '../Components/Services/Stats'
 
 function HomeOne() {
     return (
@@ -35,10 +37,12 @@ function HomeOne() {
             <BannerThree /> */}
             {/* <DestinationThree /> */}
             <GalleryTwo />
-            <CounterThree />
+            {/* <CounterThree /> */}
             {/* <AboutThree /> */}
+            <Stat />
             <RunningText/>
             <Video/>
+            
             <AboutTwo />
             <CategoryOne />
             {/* <BrandOne /> */}
