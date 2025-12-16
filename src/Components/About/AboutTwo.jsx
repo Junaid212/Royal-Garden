@@ -801,11 +801,17 @@ function AboutTwo() {
                             className="content-section"
                         >
                             <motion.div variants={itemVariants}>
-                                <span className="sub-title">
+                                <span className="sub-title" id='sub-titles-n'>
                                     <span className="sub-title" id='sub-title'/>
                                     Explore Our Clubhouse
                                 </span>
                             </motion.div>
+                            <style>{`
+                            @media(max-width:768px){
+                            #sub-titles-n{
+                            margin-top: -200px;
+                            }}
+                            `}</style>
 
                             <motion.h2 variants={itemVariants} className="sec-title">
                                 Fun, Comfort
@@ -865,7 +871,7 @@ function AboutTwo() {
                     </div>
                 </div>
 
-                <div className="wave-decoration">
+                {/* <div className="wave-decoration">
                     <svg
                         viewBox="0 0 1200 120"
                         preserveAspectRatio="none"
@@ -886,7 +892,7 @@ function AboutTwo() {
                             </linearGradient>
                         </defs>
                     </svg>
-                </div>
+                </div> */}
             </section>
         </>
     );

@@ -87,6 +87,11 @@ const CategoryOne = () => {
                             margin-top:-130px !important;
                             }
                             }
+
+                             #subtext1{
+                            margin-top:-140px !important;
+                            }
+                            
                             `}</style>
 
         <Swiper

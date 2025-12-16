@@ -27,6 +27,7 @@ import GalleryTwo from '../Components/Gallery/GalleryTwo'
 import Video from '../Components/Video'
 import StatCard from '../Components/StatCard'
 import Stat from '../Components/Services/Stats'
+import AboutHero from '../Components/AboutHero'
 
 function HomeOne() {
     return (
@@ -36,7 +37,8 @@ function HomeOne() {
             {/* <HeaderThree />
             <BannerThree /> */}
             {/* <DestinationThree /> */}
-            <GalleryTwo />
+            <AboutHero/>
+            {/* <GalleryTwo /> */}
             {/* <CounterThree /> */}
             {/* <AboutThree /> */}
             <Stat />
