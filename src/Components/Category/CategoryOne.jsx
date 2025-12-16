@@ -75,7 +75,7 @@ const CategoryOne = () => {
     <section
       className="category-area bg-top-center "
       // style={{ backgroundImage: "url(/assets/img/rg/26.webp)", backgroundRepeat: "no-repeat" ,backgroundColor:'#041D1F'}}
-      style={{ backgroundRepeat: "no-repeat" ,background:'linear-gradient(135deg, #030712 0%, #064e3b 50%, #111827 100%)', height:'570px'}}
+      style={{ backgroundRepeat: "no-repeat" ,background:'linear-gradient(135deg, #030712 0%, #064e3b 50%, #111827 100%)', height:'620px'}}
     >
       <div className="container th-container" style={{background:'none',}}>
         <div className="title-area text-center">

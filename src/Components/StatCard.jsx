@@ -23,7 +23,7 @@ export default function StatCard({
   const [displayValue, setDisplayValue] = useState(0);
   
   useEffect(() => {
-    const duration = 1500;
+    const duration = 5000;
     const steps = 60;
     const increment = value / steps;
     let current = 0;
