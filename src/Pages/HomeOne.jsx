@@ -28,11 +28,13 @@ import Video from '../Components/Video'
 import StatCard from '../Components/StatCard'
 import Stat from '../Components/Services/Stats'
 import AboutHero from '../Components/AboutHero'
+import ImageSlider from '../Components/ImageSlider'
 
 function HomeOne() {
     return (
         <div>
             <HeaderTwo />
+            
             <BannerTwo />
             {/* <HeaderThree />
             <BannerThree /> */}
@@ -47,6 +49,7 @@ function HomeOne() {
             
             <AboutTwo />
             <CategoryOne />
+            {/* <ImageSlider/> */}
             {/* <BrandOne /> */}
             {/* <GalleryOne /> */}
             {/* <CategoryThree /> */}

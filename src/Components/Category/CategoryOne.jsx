@@ -73,13 +73,14 @@ const CategoryOne = () => {
 
   return (
     <section
-      className="category-area bg-top-center"
-      style={{ backgroundImage: "url(/assets/img/rg/26.webp)", backgroundRepeat: "no-repeat" }}
+      className="category-area bg-top-center "
+      // style={{ backgroundImage: "url(/assets/img/rg/26.webp)", backgroundRepeat: "no-repeat" ,backgroundColor:'#041D1F'}}
+      style={{ backgroundRepeat: "no-repeat" ,background:'linear-gradient(135deg, #030712 0%, #064e3b 50%, #111827 100%)', height:'570px'}}
     >
       <div className="container th-container" style={{background:'none',}}>
         <div className="title-area text-center">
           <span className="sub-title" id="subtext1">Wonderful Place For You</span>
-          <h2 className="sec-title">Garden & Suites</h2>
+          <h2 className="sec-title" style={{color:'white'}}>Garden & Suites</h2>
         </div>
         <style>{`
                             @media(max-width:768px){
@@ -90,6 +91,7 @@ const CategoryOne = () => {
 
                              #subtext1{
                             margin-top:-140px !important;
+                            color: #D4A935;
                             }
                             
                             `}</style>
@@ -122,8 +124,8 @@ const CategoryOne = () => {
                 <div className="box-img global-img">
                   <img src={category.imgSrc} alt={category.title} loading="lazy" />
                 </div>
-                <h3 className="box-title">
-                  <Link to="/destination">{category.title}</Link>
+                <h3 className="box-title" style={{color:'#D4A935'}}>
+                  {category.title}
                 </h3>
                 {/* <Link className="line-btn" to="/destination">
                   See more
@@ -131,9 +133,9 @@ const CategoryOne = () => {
               </div>
             </SwiperSlide>
           ))}
-          <div className="slider-controller w-100 justify-content-center">
+          {/* <div className="slider-controller w-100 justify-content-center">
             <div className="swiper-pagination" style={{maxWidth:"100%"}}></div>
-          </div>
+          </div> */}
         </Swiper>
 
       </div>

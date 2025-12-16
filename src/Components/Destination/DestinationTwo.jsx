@@ -46,7 +46,7 @@ function DestinationTwo() {
                                 >
                                     <div className="destination-content">
                                         <h4 className="box-title">
-                                            <Link to="/destination/1">{item.name}</Link>
+                                            {item.name}
                                         </h4>
                                         {/* <span className="destination-subtitle">{item.listings} Listing</span> */}
                                     </div>

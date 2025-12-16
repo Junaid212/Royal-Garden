@@ -26402,6 +26402,9 @@ span.select2-selection.select2-selection--single:focus {
   .why-sec3 {
     background-position: right center;
   }
+  .hide-system {
+    display: none !important;
+  }
 }
 
 /* Why 2 end ---------------------------------- */

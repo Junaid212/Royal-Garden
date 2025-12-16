@@ -19,7 +19,7 @@ function TestimonialThree() {
                 <style>{`
                             @media(max-width:768px){
                             #subtext2{
-                            margin-top:0px !important;
+                            margin-top:60px !important;
                             }
                             .testi-area3{
                             margin-bottom: -100px !important;
