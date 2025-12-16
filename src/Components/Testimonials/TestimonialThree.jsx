@@ -13,7 +13,7 @@ function TestimonialThree() {
             style={{ backgroundImage: "url(/assets/img/bg/3.webp)", backgroundRepeat:"no-repeat" ,marginBottom:'50px'}}>
             <div className="container">
                 <div className="title-area text-center">
-                    <span className="sub-title" id='subtext2'>Testimonials</span>
+                    <span className="sub-title" id='subtext2' style={{marginTop: '100px'}}>Testimonials</span>
                     <h2 className="sec-title">What Guests Say</h2>
                 </div>
                 <style>{`
