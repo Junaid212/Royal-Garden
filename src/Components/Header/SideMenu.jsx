@@ -1,13 +1,13 @@
-import React, { useState } from 'react'
+import React from 'react'
 import { Link } from 'react-router-dom'
 
 function SideMenu({ isOpen, onClose }) {
-    const [activeMenu, setActiveMenu] = useState(null);
+    // const [activeMenu, setActiveMenu] = useState(null);
     
         // Toggle the active state of a dropdown menu
-        const toggleMenu = (index) => {
-            setActiveMenu(activeMenu === index ? null : index);
-        };
+        // const toggleMenu = (index) => {
+        //     setActiveMenu(activeMenu === index ? null : index);
+        // };
     return (
         <>
             <div className={`sidemenu-wrapper sidemenu-info ${isOpen ? "show" : ""}`} style={{ visibility: isOpen ? "visible" : "hidden" }} onClick={onClose} aria-label="Close">

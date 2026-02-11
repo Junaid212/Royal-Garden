@@ -1,6 +1,6 @@
 import { useEffect, useRef, useState } from "react";
 // import { Button } from "@/components/ui/button";
-import { Play, Pause, Volume2, VolumeX, Radius } from "lucide-react";
+// import { Play, Pause, Volume2, VolumeX, Radius } from "lucide-react";
 
 const styles = {
   container: {
@@ -46,23 +46,23 @@ const Video = () => {
     }
   }, []);
 
-  const togglePlay = () => {
-    if (videoRef.current) {
-      if (isPlaying) {
-        videoRef.current.pause();
-      } else {
-        videoRef.current.play();
-      }
-      setIsPlaying(!isPlaying);
-    }
-  };
+  // const togglePlay = () => {
+  //   if (videoRef.current) {
+  //     if (isPlaying) {
+  //       videoRef.current.pause();
+  //     } else {
+  //       videoRef.current.play();
+  //     }
+  //     setIsPlaying(!isPlaying);
+  //   }
+  // };
 
-  const toggleMute = () => {
-    if (videoRef.current) {
-      videoRef.current.muted = !isMuted;
-      setIsMuted(!isMuted);
-    }
-  };
+  // const toggleMute = () => {
+  //   if (videoRef.current) {
+  //     videoRef.current.muted = !isMuted;
+  //     setIsMuted(!isMuted);
+  //   }
+  // };
 
   return (
     <>

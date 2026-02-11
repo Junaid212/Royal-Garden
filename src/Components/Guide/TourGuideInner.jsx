@@ -3,7 +3,7 @@ import TourguideCard from './TourguideCard';
 import posts from '../data/data-guide.json';
 
 function TourGuideInner() {
-    const [currentPage, setCurrentPage] = useState(1);
+    const [currentPage] = useState(1);
     const postsPerPage = 6;
 
     // Get current posts
@@ -15,7 +15,7 @@ function TourGuideInner() {
         <section className="space" id="team-sec">
             <div className="container">
                 <div className="row gy-4 gx-30">
-                    {currentPosts.map((data, index) => (
+                    {currentPosts.map((data) => (
                         <div key={data.id} className="col-xl-4 col-md-6">
                             <TourguideCard
                                 guideID={data.id}

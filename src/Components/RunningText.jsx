@@ -1,7 +1,7 @@
-import React, { useState } from 'react';
+import React from 'react';
 
 export default function RunningText() {
-const isMobile = window.innerWidth <= 768;
+// const isMobile = window.innerWidth <= 768;
 
   const messages = [
     "Host Events",

@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import { MessageCircle } from "lucide-react";
+// import { MessageCircle } from "lucide-react";
 
 const WhatsAppButton = ({ phoneNumber = "+919632526302", message = "Hello!" }) => {
   const [isHovered, setIsHovered] = useState(false);

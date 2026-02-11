@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 
 function MobileMenu({ isOpen, onClose }) {
     const [activeMenu, setActiveMenu] = useState(null);
-    const [activeShopMenu, setActiveShopMenu] = useState(false); // Shop submenu state
+    // const [activeShopMenu, setActiveShopMenu] = useState(false); // Shop submenu state
     const menuRefs = useRef({});
 
     // Toggle dropdown menu
@@ -14,10 +14,10 @@ function MobileMenu({ isOpen, onClose }) {
     };
 
     // Handle Shop menu separately
-    const toggleShopMenu = (e) => {
-        e.stopPropagation(); // Prevent menu from closing
-        setActiveShopMenu(!activeShopMenu);
-    };
+    // const toggleShopMenu = (e) => {
+    //     e.stopPropagation(); // Prevent menu from closing
+    //     setActiveShopMenu(!activeShopMenu);
+    // };
 
     // Apply height animation when activeMenu changes
     useEffect(() => {

@@ -5,12 +5,7 @@ import {
   Award, 
   MapPin, 
   Heart,
-  Bell,
   CheckCircle,
-  Clock,
-  Zap,
-  ArrowRight,
-  Compass,
   Star,
   Plane
 } from "lucide-react";
