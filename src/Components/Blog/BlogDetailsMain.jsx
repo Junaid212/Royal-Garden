@@ -317,42 +317,42 @@ function BlogDetailsMain() {
                                 <ul>
                                     <li>
                                         <Link to="/blog">
-                                            <img src="/assets/img/theme-img/map.svg" alt="" />
+                                            <img src="/assets/img/theme-img/map.svg" alt="city" />
                                             City Tour
                                         </Link>
                                         <span>(8)</span>
                                     </li>
                                     <li>
                                         <Link to="/blog">
-                                            <img src="/assets/img/theme-img/map.svg" alt="" />
+                                            <img src="/assets/img/theme-img/map.svg" alt="Beach" />
                                             Beach Tours
                                         </Link>
                                         <span>(6)</span>
                                     </li>
                                     <li>
                                         <Link to="/blog">
-                                            <img src="/assets/img/theme-img/map.svg" alt="" />
+                                            <img src="/assets/img/theme-img/map.svg" alt="Wildlife" />
                                             Wildlife Tours
                                         </Link>
                                         <span>(2)</span>
                                     </li>
                                     <li>
                                         <Link to="/blog">
-                                            <img src="/assets/img/theme-img/map.svg" alt="" />
+                                            <img src="/assets/img/theme-img/map.svg" alt="News & Tips" />
                                             News &amp; Tips
                                         </Link>
                                         <span>(7)</span>
                                     </li>
                                     <li>
                                         <Link to="/blog">
-                                            <img src="/assets/img/theme-img/map.svg" alt="" />
+                                            <img src="/assets/img/theme-img/map.svg" alt="Adventure" />
                                             Adventure Tours
                                         </Link>
                                         <span>(9)</span>
                                     </li>
                                     <li>
                                         <Link to="/blog">
-                                            <img src="/assets/img/theme-img/map.svg" alt="" />
+                                            <img src="/assets/img/theme-img/map.svg" alt="Mountain" />
                                             Mountain Tours
                                         </Link>
                                         <span>(10)</span>

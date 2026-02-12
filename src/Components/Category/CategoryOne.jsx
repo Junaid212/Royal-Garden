@@ -3,7 +3,7 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import { Pagination, Autoplay } from "swiper/modules";
 import "swiper/css";
 import "swiper/css/pagination";
-import { Link } from "react-router-dom";
+// import { Link } from "react-router-dom";
 
 const CategoryOne = () => {
   const swiperRef = useRef(null);

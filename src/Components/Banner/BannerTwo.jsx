@@ -24,23 +24,23 @@ function BannerTwo() {
     animationProperties();
   }, []);
   // Event handler for custom navigation arrows
-  const handleSliderNavigation = (direction) => {
-    if (swiperRef.current && swiperRef.current.swiper) {
-      const swiper = swiperRef.current.swiper;
-      if (direction === 'prev') {
-        swiper.slidePrev();
-      } else {
-        swiper.slideNext();
-      }
-    }
-  };
+  // const handleSliderNavigation = (direction) => {
+  //   if (swiperRef.current && swiperRef.current.swiper) {
+  //     const swiper = swiperRef.current.swiper;
+  //     if (direction === 'prev') {
+  //       swiper.slidePrev();
+  //     } else {
+  //       swiper.slideNext();
+  //     }
+  //   }
+  // };
 
   const isMobile = typeof window !== 'undefined' && window.innerWidth < 768;
-  const destinationRef = useRef(null);
-  const handleScroll = (e) => {
-    e.preventDefault();
-    document.getElementById("destination-sec")?.scrollIntoView({ behavior: "smooth" });
-  };
+  // const destinationRef = useRef(null);
+  // const handleScroll = (e) => {
+  //   e.preventDefault();
+  //   document.getElementById("destination-sec")?.scrollIntoView({ behavior: "smooth" });
+  // };
   return (
     <div className="hero-2" id="hero">
       <div className="hero2-overlay" style={{ backgroundImage: 'url(/assets/img/bg/line-pattern.png)', background:'linear-gradient(90deg,rgba(191, 140, 0, 1) 0%, rgba(255, 217, 112, 1) 50%, rgba(176, 130, 4, 1) 100%)', borderRadius:'0 0 24px 24px'}} />
