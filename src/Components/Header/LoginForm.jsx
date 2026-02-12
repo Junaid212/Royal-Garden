@@ -62,7 +62,7 @@ function LoginForm({ isOpen, onClose }) {
                                         </div>
                                     </div>
                                     <div id="forgot_url">
-                                        <a href="javascript:void(0)">Forgot password?</a>
+                                        <button type="button" style={{ background: 'none', border: 'none', color: 'inherit', cursor: 'pointer', textDecoration: 'underline' }}>Forgot password?</button>
                                     </div>
                                 </form>
                             </div>
