@@ -34,7 +34,7 @@ const styles = {
 
 const Video = () => {
   const videoRef = useRef(null);
-  const [isPlaying, setIsPlaying] = useState(true);
+  const [, setIsPlaying] = useState(true);
   // const [isMuted, setIsMuted] = useState(true);
 
   useEffect(() => {

@@ -48,7 +48,7 @@ function SideMenu({ isOpen, onClose }) {
                             <div className="recent-post">
                                 <div className="media-img">
                                     <Link to="/blog/1">
-                                        <img src="assets/img/blog/recent-post-1-1.jpg" alt="Blog Image" />
+                                        <img src="assets/img/blog/recent-post-1-1.jpg" alt="Blog" />
                                     </Link>
                                 </div>
                                 <div className="media-body">
@@ -68,7 +68,7 @@ function SideMenu({ isOpen, onClose }) {
                             <div className="recent-post">
                                 <div className="media-img">
                                     <Link to="/blog/1">
-                                        <img src="assets/img/blog/recent-post-1-2.jpg" alt="Blog Image" />
+                                        <img src="assets/img/blog/recent-post-1-2.jpg" alt="Blog" />
                                     </Link>
                                 </div>
                                 <div className="media-body">
