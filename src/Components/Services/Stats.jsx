@@ -5,9 +5,6 @@ import {
   Award, 
   MapPin, 
   Heart,
-  CheckCircle,
-  Star,
-  Plane
 } from "lucide-react";
 import StatCard from "../StatCard";
 
@@ -54,15 +51,15 @@ export default function Stat() {
     },
   ];
 
-  const activities = [
-    { icon: CheckCircle, title: "Tour completed", description: "Bali Adventure Tour - 5 star review", time: "2m", color: "emerald" },
-    { icon: Users, title: "New booking", description: "John D. booked Swiss Alps Tour", time: "15m", color: "indigo" },
-    { icon: Star, title: "Excellent review", description: "Sarah M. rated Tokyo Tour 5 stars", time: "1h", color: "coral" },
-    { icon: Plane, title: "Departure today", description: "Paris Romance Tour starts today", time: "2h", color: "purple" },
-    { icon: MapPin, title: "New destination", description: "Iceland Northern Lights added", time: "3h", color: "indigo" },
-  ];
+  // const activities = [
+  //   { icon: CheckCircle, title: "Tour completed", description: "Bali Adventure Tour - 5 star review", time: "2m", color: "emerald" },
+  //   { icon: Users, title: "New booking", description: "John D. booked Swiss Alps Tour", time: "15m", color: "indigo" },
+  //   { icon: Star, title: "Excellent review", description: "Sarah M. rated Tokyo Tour 5 stars", time: "1h", color: "coral" },
+  //   { icon: Plane, title: "Departure today", description: "Paris Romance Tour starts today", time: "2h", color: "purple" },
+  //   { icon: MapPin, title: "New destination", description: "Iceland Northern Lights added", time: "3h", color: "indigo" },
+  // ];
 
-  const chartData = [30, 45, 28, 80, 65, 55, 78, 90, 68, 85];
+  // const chartData = [30, 45, 28, 80, 65, 55, 78, 90, 68, 85];
 
   if (!isMounted) {
     return (

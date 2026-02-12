@@ -38,7 +38,7 @@
 
 import React from "react";
 // import { motion } from "framer-motion";
-import { Heart, Target, Users, Sparkles, ArrowRight, CheckCircle2, Maximize, BedDouble, Wind, Wifi, ConciergeBell, Droplets, Home, Paintbrush } from "lucide-react";
+import {  Maximize, BedDouble, Wind, Wifi, ConciergeBell, Droplets, Home, Paintbrush } from "lucide-react";
 // import { Button } from "@/components/ui/button";
 
 const fadeInUp = {
